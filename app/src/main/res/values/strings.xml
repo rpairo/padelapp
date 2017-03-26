@@ -1,3 +1,10 @@
 <resources>
+
+    <!-- App -->
     <string name="app_name">Padelapp</string>
+
+    <!-- Toolbar main -->
+    <string name="first_title_toolbar_main">Padel</string>
+    <string name="last_title_toolbar_main">app</string>
+    <string name="level_toolbar_main">/ nivel 3</string>
 </resources>
