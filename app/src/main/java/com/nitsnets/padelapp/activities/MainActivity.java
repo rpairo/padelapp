@@ -2,12 +2,17 @@ package com.nitsnets.padelapp.activities;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.nitsnets.padelapp.R;
+import com.nitsnets.padelapp.fragments.BaseFragment;
+import com.nitsnets.padelapp.fragments.MatchesFragment;
 import com.nitsnets.padelapp.utils.BottomNavigationViewHelper;
 
 import butterknife.BindView;
@@ -25,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.bottom_navigation_main)
     BottomNavigationView bottomNavigationView;
+
+    private Fragment fragment;
+    private FragmentManager fragmentManager;
     //endregion
 
     //region Lifecycle
@@ -36,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
         configureToolbar();
 
+        configureFragments();
+
         configureBottomNativation();
     }
     //endregion
@@ -43,6 +53,15 @@ public class MainActivity extends AppCompatActivity {
     //region Toolbar
     private void configureToolbar() {
         if (toolbar != null) setSupportActionBar(toolbar);
+    }
+    //endregion
+
+    //region Fragments
+    private void configureFragments() {
+        fragmentManager = getSupportFragmentManager();
+        fragment = new MatchesFragment();
+        final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.add(R.id.content, fragment).commit();
     }
     //endregion
 
@@ -58,6 +77,17 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()) {
+                    case R.id.navigation_matches:
+                        fragment = new MatchesFragment();
+                        break;
+                    default:
+                        fragment = new BaseFragment();
+                        break;
+                }
+
+                fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
                 return true;
             }
         };
