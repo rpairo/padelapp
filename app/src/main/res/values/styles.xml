@@ -10,4 +10,11 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="BottomNavigation">
+        <item name="android:background">@android:color/white</item>
+        <item name="itemBackground">@drawable/hover_bottom_navigation</item>
+        <item name="itemIconTint">@color/icon_bottom_navigation</item>
+        <item name="itemTextColor">@color/text_navigation_bottom</item>
+    </style>
+
 </resources>

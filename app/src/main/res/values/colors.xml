@@ -6,4 +6,9 @@
     <color name="colorPrimaryDark">#e0e0e0</color>
     <color name="colorAccent">#64b5f6</color>
 
+    <color name="colorIcons">#616161</color>
+    <color name="colorIconsDisabled">#9e9e9e</color>
+
+    <color name="colorDarkBackground">#eeeeee</color>
+
 </resources>

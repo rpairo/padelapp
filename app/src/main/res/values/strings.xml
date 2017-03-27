@@ -1,3 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- App -->
     <string name="app_name">Padelapp</string>
+
+    <!-- Toolbar main -->
+    <string name="first_title_toolbar_main">Padel</string>
+    <string name="last_title_toolbar_main">app</string>
+    <string name="level_toolbar_main">/ level 3</string>
+
+    <!-- Bottom Navigation -->
+    <string name="title_matches">Matches</string>
+    <string name="title_now">Now</string>
+    <string name="title_my_matches">My Matches</string>
+    <string name="title_ranking">Ranking</string>
+    <string name="title_profile">Profile</string>
+
 </resources>
