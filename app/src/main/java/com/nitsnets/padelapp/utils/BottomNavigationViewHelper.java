@@ -13,6 +13,7 @@ import java.lang.reflect.Field;
 
 public class BottomNavigationViewHelper {
 
+    // Static functions
     public static void removeShiftMode(BottomNavigationView view) {
 
         final BottomNavigationMenuView menuView = (BottomNavigationMenuView) view.getChildAt(0);
@@ -37,4 +38,5 @@ public class BottomNavigationViewHelper {
             Log.e("ERROR ILLEGAL ALG", "Unable to change value of shift mode");
         }
     }
+    //endregion
 }

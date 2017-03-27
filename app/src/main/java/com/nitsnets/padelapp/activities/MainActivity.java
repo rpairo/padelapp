@@ -13,14 +13,21 @@ import com.nitsnets.padelapp.utils.BottomNavigationViewHelper;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Created by raul on 26/3/17.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
+    //region Variables
     @BindView(R.id.toolbar_main)
     Toolbar toolbar;
 
     @BindView(R.id.bottom_navigation_main)
     BottomNavigationView bottomNavigationView;
+    //endregion
 
+    //region Lifecycle
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,11 +38,15 @@ public class MainActivity extends AppCompatActivity {
 
         configureBottomNativation();
     }
+    //endregion
 
+    //region Toolbar
     private void configureToolbar() {
         if (toolbar != null) setSupportActionBar(toolbar);
     }
+    //endregion
 
+    //region Bottom Navigation
     private void configureBottomNativation() {
         BottomNavigationViewHelper.removeShiftMode(bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(configurarBottomNavigationSelectedListener());
@@ -53,4 +64,5 @@ public class MainActivity extends AppCompatActivity {
 
         return onNavigationItemSelectedListener;
     }
+    //endregion
 }
