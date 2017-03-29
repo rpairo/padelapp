@@ -8,6 +8,8 @@
     <string name="first_title_toolbar_main">Padel</string>
     <string name="last_title_toolbar_main">app</string>
     <string name="level_toolbar_main">/ level 3</string>
+    <string name="image_search_description">Search</string>
+    <string name="image_notifications_description">Notifications</string>
 
     <!-- Bottom Navigation -->
     <string name="title_matches">Matches</string>
@@ -15,5 +17,27 @@
     <string name="title_my_matches">My Matches</string>
     <string name="title_ranking">Ranking</string>
     <string name="title_profile">Profile</string>
+
+    <!-- Date time -->
+    <string name="date_time_weekday">Monday</string>
+    <string name="date_time_day_month">1 January</string>
+    <string name="date_time_hour">10:20</string>
+    <string name="image_clock_description">Clock</string>
+
+    <!-- Separators Match -->
+    <string name="image_separators_description">Separators</string>
+
+    <!-- Player Match -->
+    <string name="versus_teams">VS</string>
+    <string name="amount_players_match">4 are missing</string>
+    <string name="image_player_description">Player profile picture</string>
+
+    <!-- Price Bar -->
+    <string name="image_club_description">Club logo</string>
+    <string name="price_match">6,50€</string>
+    <string name="phrase_person_price_bar">per person</string>
+    <string name="prefix_club_bar">Club Atlético</string>
+    <string name="name_club_bar">Montemar</string>
+    <string name="button_bar">Sign up</string>
 
 </resources>

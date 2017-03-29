@@ -4,14 +4,15 @@
     <style name="AppTheme" parent="AppThemeChild" />
 
     <style name="AppThemeChild" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <!-- Bottom navigation view theme -->
     <style name="BottomNavigation">
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@color/backgroundBottomNavigation</item>
         <item name="itemBackground">@drawable/hover_bottom_navigation</item>
         <item name="itemIconTint">@color/icon_bottom_navigation</item>
         <item name="itemTextColor">@color/text_navigation_bottom</item>

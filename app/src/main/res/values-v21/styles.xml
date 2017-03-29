@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Base application theme -->
     <style name="AppTheme" parent="AppThemeChild">
-        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/backgroundNavigationBar</item>
     </style>
+
 </resources>

@@ -4,9 +4,46 @@
     <!-- Toolbar main -->
     <dimen name="elevation_toolbar">1dp</dimen>
     <dimen name="text_size_toolbar">20sp</dimen>
-    <dimen name="padding_left_toolbar">10dp</dimen>
-    <dimen name="padding_right_toolbar">10dp</dimen>
-
+    <dimen name="padding_horizontal_toolbar">10dp</dimen>
     <dimen name="margin_left_level">5dp</dimen>
+
+    <!-- Card View Match -->
+    <dimen name="elevation_cardview_match">5dp</dimen>
+    <dimen name="margin_bottom_cardview_match">15dp</dimen>
+    <dimen name="padding_cardview_match">17dp</dimen>
+
+    <!-- Date Time Match -->
+    <dimen name="text_size_date_match">19sp</dimen>
+    <dimen name="text_size_time_match">28sp</dimen>
+    <dimen name="padding_horizontal_datetime">15dp</dimen>
+    <dimen name="padding_vertical_datetime">8dp</dimen>
+    <dimen name="margin_left_date">5dp</dimen>
+    <dimen name="image_size_clock">17dp</dimen>
+    <dimen name="margin_right_clock">5dp</dimen>
+
+    <!-- Player Match -->
+    <dimen name="image_size_profile_match">50dp</dimen>
+    <dimen name="padding_horizontal_players_match">10dp</dimen>
+    <dimen name="margin_horizontal_profiles_match">5dp</dimen>
+    <dimen name="margin_top_players_match">25dp</dimen>
+    <dimen name="text_size_versus_teams">16sp</dimen>
+    <dimen name="text_size_amount_players_match">12sp</dimen>
+
+    <!-- Separators Match -->
+    <dimen name="margin_top_separators_match">25dp</dimen>
+
+    <!-- Price Bar -->
+    <dimen name="width_image_club_price_bar">25dp</dimen>
+    <dimen name="height_image_club_price_bar">30dp</dimen>
+    <dimen name="margin_left_details_price_bar">7dp</dimen>
+    <dimen name="text_size_price_bar">12sp</dimen>
+    <dimen name="margin_left_text_price_bar">3dp</dimen>
+    <dimen name="padding_vertical_button_bar">17dp</dimen>
+    <dimen name="elevation_button_bar">5dp</dimen>
+    <dimen name="padding_right_button_bar">20dp</dimen>
+    <dimen name="padding_left_button_bar">30dp</dimen>
+    <dimen name="text_size_button_bar">17sp</dimen>
+    <dimen name="margin_top_price_bar">15dp</dimen>
+    <dimen name="padding_bottom_price_bar">17dp</dimen>
 
 </resources>
