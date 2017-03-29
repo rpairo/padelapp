@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.fragments.BaseFragment;
 import com.nitsnets.padelapp.fragments.MatchesFragment;
+import com.nitsnets.padelapp.fragments.NowFragment;
 import com.nitsnets.padelapp.utils.BottomNavigationViewHelper;
 
 import butterknife.BindView;
@@ -81,6 +82,9 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.navigation_matches:
                         fragment = new MatchesFragment();
+                        break;
+                    case R.id.navigation_now:
+                        fragment = new NowFragment();
                         break;
                     default:
                         fragment = new BaseFragment();
