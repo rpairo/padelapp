@@ -40,25 +40,24 @@
             android:text="@string/phrase_person_price_bar"
             android:textSize="@dimen/text_size_price_bar" />
 
-        <TextView
-            android:id="@+id/prefix_club_bar_match"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/price_bar_match"
-            android:text="@string/prefix_club_bar"
-            android:textSize="@dimen/text_size_price_bar" />
-
         <!-- Club match -->
         <TextView
             android:id="@+id/name_club_bar_match"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/price_bar_match"
-            android:layout_marginStart="@dimen/margin_left_text_price_bar"
-            android:layout_toEndOf="@+id/prefix_club_bar_match"
             android:text="@string/name_club_bar"
-            android:textSize="@dimen/text_size_price_bar"
-            android:textStyle="bold" />
+            android:textSize="@dimen/text_size_price_bar" />
+
+        <TextView
+            android:id="@+id/location_club_bar_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_bar_match"
+            android:layout_marginStart="@dimen/margin_left_text_price_bar"
+            android:layout_toEndOf="@+id/name_club_bar_match"
+            android:text="@string/location_club_bar"
+            android:textSize="@dimen/text_size_price_bar" />
 
     </RelativeLayout>
 
@@ -69,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:backgroundTint="@color/backgroundButtonPriceMatch"
+        android:backgroundTint="@color/backgroundButtonNowMatch"
         android:drawableEnd="@drawable/ic_arrow_right_white_24dp"
         android:elevation="@dimen/elevation_button_bar"
         android:paddingBottom="@dimen/padding_vertical_button_bar"

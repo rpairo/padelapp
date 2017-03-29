@@ -11,7 +11,7 @@
     <string name="image_search_description">Search</string>
     <string name="image_notifications_description">Notifications</string>
 
-    <!-- Bottom Navigation -->
+    <!-- Bottom navigation -->
     <string name="title_matches">Matches</string>
     <string name="title_now">Now</string>
     <string name="title_my_matches">My Matches</string>
@@ -24,20 +24,28 @@
     <string name="date_time_hour">10:20</string>
     <string name="image_clock_description">Clock</string>
 
-    <!-- Separators Match -->
+    <!-- Separators match -->
     <string name="image_separators_description">Separators</string>
 
-    <!-- Player Match -->
+    <!-- Player match -->
     <string name="versus_teams">VS</string>
     <string name="amount_players_match">4 are missing</string>
     <string name="image_player_description">Player profile picture</string>
 
-    <!-- Price Bar -->
+    <!-- Price bar -->
     <string name="image_club_description">Club logo</string>
     <string name="price_match">6,50€</string>
     <string name="phrase_person_price_bar">per person</string>
     <string name="prefix_club_bar">Club Atlético</string>
     <string name="name_club_bar">Montemar</string>
     <string name="button_bar">Sign up</string>
+
+    <!-- Date time now -->
+    <string name="date_time_hour_now">10:20:30</string>
+    <string name="left_time_now">left</string>
+    <string name="date_time_match_now">Today at 18:00</string>
+
+    <!-- Price bar now -->
+    <string name="location_club_bar">(Alicante)</string>
 
 </resources>
