@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/price_match"
-            android:textSize="@dimen/text_size_price_bar"
+            android:textSize="@dimen/text_small_size"
             android:textStyle="bold" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginStart="@dimen/margin_left_text_price_bar"
             android:layout_toEndOf="@+id/price_bar_match"
             android:text="@string/phrase_person_price_bar"
-            android:textSize="@dimen/text_size_price_bar" />
+            android:textSize="@dimen/text_small_size" />
 
         <!-- Club match -->
         <TextView
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/price_bar_match"
             android:text="@string/name_club_bar"
-            android:textSize="@dimen/text_size_price_bar" />
+            android:textSize="@dimen/text_small_size" />
 
         <TextView
             android:id="@+id/location_club_bar_match"
@@ -57,7 +57,7 @@
             android:layout_marginStart="@dimen/margin_left_text_price_bar"
             android:layout_toEndOf="@+id/name_club_bar_match"
             android:text="@string/location_club_bar"
-            android:textSize="@dimen/text_size_price_bar" />
+            android:textSize="@dimen/text_small_size" />
 
     </RelativeLayout>
 
@@ -70,7 +70,7 @@
         android:layout_centerVertical="true"
         android:backgroundTint="@color/backgroundButtonNowMatch"
         android:drawableEnd="@drawable/ic_arrow_right_white_24dp"
-        android:elevation="@dimen/elevation_button_bar"
+        android:elevation="@dimen/elegant_elevation"
         android:paddingBottom="@dimen/padding_vertical_button_bar"
         android:paddingEnd="@dimen/padding_right_button_bar"
         android:paddingStart="@dimen/padding_left_button_bar"
@@ -78,7 +78,7 @@
         android:text="@string/button_bar"
         android:textAllCaps="false"
         android:textColor="@color/textButton"
-        android:textSize="@dimen/text_size_button_bar"
+        android:textSize="@dimen/text_medium_size"
         android:textStyle="bold" />
 
 </RelativeLayout>

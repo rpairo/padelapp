@@ -17,7 +17,7 @@
         android:layout_centerVertical="true"
         android:layout_toStartOf="@+id/left_time"
         android:text="@string/date_time_match_now"
-        android:textSize="@dimen/text_size_date_match" />
+        android:textSize="@dimen/text_big_size" />
 
     <TextView
         android:id="@+id/left_time"
@@ -28,7 +28,7 @@
         android:layout_toStartOf="@+id/time_match"
         android:text="@string/left_time_now"
         android:textColor="@color/textTimeNow"
-        android:textSize="@dimen/text_size_left_time_now" />
+        android:textSize="@dimen/text_small_size" />
 
     <!-- Time match -->
     <TextView
@@ -39,7 +39,7 @@
         android:layout_centerVertical="true"
         android:text="@string/date_time_hour_now"
         android:textColor="@color/textTimeNow"
-        android:textSize="@dimen/text_size_time_match"
+        android:textSize="@dimen/text_giant_size"
         android:textStyle="bold" />
 
 </RelativeLayout>

@@ -7,20 +7,18 @@
     <dimen name="text_medium_size">16sp</dimen>
     <dimen name="text_small_size">12sp</dimen>
 
+    <!-- Elevations -->
+    <dimen name="elegant_elevation">1dp</dimen>
+
     <!-- Toolbar main -->
-    <dimen name="elevation_toolbar">1dp</dimen>
-    <dimen name="text_size_toolbar">20sp</dimen>
     <dimen name="padding_horizontal_toolbar">10dp</dimen>
     <dimen name="margin_left_level">5dp</dimen>
 
     <!-- Card view match -->
-    <dimen name="elevation_cardview_match">5dp</dimen>
     <dimen name="margin_bottom_cardview_match">15dp</dimen>
     <dimen name="padding_cardview_match">17dp</dimen>
 
     <!-- Date time match -->
-    <dimen name="text_size_date_match">19sp</dimen>
-    <dimen name="text_size_time_match">28sp</dimen>
     <dimen name="padding_horizontal_datetime">15dp</dimen>
     <dimen name="padding_vertical_datetime">8dp</dimen>
     <dimen name="margin_left_date">5dp</dimen>
@@ -32,8 +30,6 @@
     <dimen name="padding_horizontal_players_match">10dp</dimen>
     <dimen name="margin_horizontal_profiles_match">5dp</dimen>
     <dimen name="margin_top_players_match">25dp</dimen>
-    <dimen name="text_size_versus_teams">16sp</dimen>
-    <dimen name="text_size_amount_players_match">12sp</dimen>
 
     <!-- Separators match -->
     <dimen name="margin_top_separators_match">25dp</dimen>
@@ -42,18 +38,13 @@
     <dimen name="width_image_club_price_bar">25dp</dimen>
     <dimen name="height_image_club_price_bar">30dp</dimen>
     <dimen name="margin_left_details_price_bar">7dp</dimen>
-    <dimen name="text_size_price_bar">12sp</dimen>
     <dimen name="margin_left_text_price_bar">3dp</dimen>
     <dimen name="padding_vertical_button_bar">17dp</dimen>
-    <dimen name="elevation_button_bar">5dp</dimen>
     <dimen name="padding_right_button_bar">20dp</dimen>
     <dimen name="padding_left_button_bar">30dp</dimen>
-    <dimen name="text_size_button_bar">17sp</dimen>
     <dimen name="margin_top_price_bar">15dp</dimen>
     <dimen name="padding_bottom_price_bar">17dp</dimen>
 
-    <!-- Date time now -->
-    <dimen name="text_size_left_time_now">14sp</dimen>
     <!-- Player ranking -->
     <dimen name="margin_elements_ranking">5dp</dimen>
 

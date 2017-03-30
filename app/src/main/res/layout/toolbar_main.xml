@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/backgroundToolbar"
-        android:elevation="@dimen/elevation_toolbar"
+        android:elevation="@dimen/elegant_elevation"
         android:paddingLeft="@dimen/padding_horizontal_toolbar"
         android:paddingRight="@dimen/padding_horizontal_toolbar">
 
@@ -43,14 +43,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/first_title_toolbar_main"
-                    android:textSize="@dimen/text_size_toolbar"
+                    android:textSize="@dimen/text_big_size"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/last_title_toolbar_main"
-                    android:textSize="@dimen/text_size_toolbar" />
+                    android:textSize="@dimen/text_big_size" />
 
                 <!-- Level player -->
                 <TextView
@@ -60,7 +60,7 @@
                     android:layout_marginStart="@dimen/margin_left_level"
                     android:text="@string/level_toolbar_main"
                     android:textColor="@color/textLevel"
-                    android:textSize="@dimen/text_size_toolbar"
+                    android:textSize="@dimen/text_big_size"
                     android:textStyle="bold" />
             </LinearLayout>
 

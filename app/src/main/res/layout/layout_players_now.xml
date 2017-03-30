@@ -54,6 +54,6 @@
         android:layout_toEndOf="@+id/profile_player_match_four"
         android:gravity="center"
         android:text="@string/amount_players_match"
-        android:textSize="@dimen/text_size_amount_players_match" />
+        android:textSize="@dimen/text_small_size" />
 
 </RelativeLayout>
