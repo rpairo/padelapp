@@ -68,4 +68,7 @@
     <!-- Price bar now -->
     <string name="button_bar_my_matches">Invite</string>
 
+    <!-- My matches results -->
+    <string name="title_my_results">My Results</string>
+
 </resources>

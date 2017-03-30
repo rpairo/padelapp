@@ -32,7 +32,7 @@ public class MyMatchesFragment extends BaseFragment {
     private Unbinder unbinder;
 
     private MyMatchesRecyclerAdapter myMatchesRecyclerAdapter;
-    private List<Match> matches;
+    private List<Object> matches;
     //endregion
 
     //region Lifecycle
@@ -49,6 +49,8 @@ public class MyMatchesFragment extends BaseFragment {
         super.onViewCreated(view, savedInstanceState);
 
         this.matches = new ArrayList<>();
+
+        initMyMatchesList();
 
         configureRecycler(view);
     }
@@ -73,4 +75,8 @@ public class MyMatchesFragment extends BaseFragment {
         recyclerView.refreshDrawableState();
     }
     //endregion
+
+    private void initMyMatchesList() {
+        this.matches = new ArrayList<>();
+    }
 }

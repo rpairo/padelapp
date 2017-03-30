@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_bottom_title_results"
+    android:layout_marginTop="@dimen/margin_top_title_results"
+    android:paddingStart="@dimen/padding_left_title_results"
+    android:text="@string/title_my_results"
+    android:textSize="@dimen/text_big_size"
+    android:textStyle="bold" />
