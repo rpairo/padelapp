@@ -43,7 +43,8 @@
     <!-- Date time now -->
     <string name="date_time_hour_now">10:20:30</string>
     <string name="left_time_now">left</string>
-    <string name="date_time_match_now">Today at 18:00</string>
+    <string name="weekday_now">Today</string>
+    <string name="date_time_match_now">at 18:00</string>
 
     <!-- Price bar now -->
     <string name="location_club_bar">(Alicante)</string>
