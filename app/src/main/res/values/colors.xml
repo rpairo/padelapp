@@ -38,6 +38,6 @@
     <color name="textTimeNow">@color/red</color>
 
     <!-- Price bar now -->
-    <color name="backgroundButtonNowMatch">@color/black</color>
+    <color name="backgroundButtonNowMatch">@color/iconsEnabled</color>
 
 </resources>
