@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.fragments.BaseFragment;
 import com.nitsnets.padelapp.fragments.MatchesFragment;
+import com.nitsnets.padelapp.fragments.MyMatchesFragment;
 import com.nitsnets.padelapp.fragments.NowFragment;
 import com.nitsnets.padelapp.fragments.RankingFragment;
 import com.nitsnets.padelapp.utils.BottomNavigationViewHelper;
@@ -89,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.navigation_ranking:
                         fragment = new RankingFragment();
+                        break;
+                    case R.id.navigation_my_matches:
+                        fragment = new MyMatchesFragment();
                         break;
                     default:
                         fragment = new BaseFragment();
