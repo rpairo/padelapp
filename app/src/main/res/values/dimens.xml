@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Text -->
+    <dimen name="text_giant_size">28sp</dimen>
+    <dimen name="text_big_size">20sp</dimen>
+    <dimen name="text_medium_size">16sp</dimen>
+    <dimen name="text_small_size">12sp</dimen>
+
     <!-- Toolbar main -->
     <dimen name="elevation_toolbar">1dp</dimen>
     <dimen name="text_size_toolbar">20sp</dimen>
@@ -48,5 +54,16 @@
 
     <!-- Date time now -->
     <dimen name="text_size_left_time_now">14sp</dimen>
+    <!-- Player ranking -->
+    <dimen name="margin_elements_ranking">5dp</dimen>
+
+    <!-- Tab layout ranking -->
+    <dimen name="size_tab_indicator">0dp</dimen>
+    <dimen name="height_tablayout_ranking">38dp</dimen>
+
+    <!-- Ranking fragment -->
+    <dimen name="padding_top_fragment_ranking">30dp</dimen>
+    <dimen name="margin_horizontal_elements_ranking">17dp</dimen>
+    <dimen name="margin_vertical_elements_ranking">15dp</dimen>
 
 </resources>

@@ -14,6 +14,7 @@ import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.fragments.BaseFragment;
 import com.nitsnets.padelapp.fragments.MatchesFragment;
 import com.nitsnets.padelapp.fragments.NowFragment;
+import com.nitsnets.padelapp.fragments.RankingFragment;
 import com.nitsnets.padelapp.utils.BottomNavigationViewHelper;
 
 import butterknife.BindView;
@@ -85,6 +86,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.navigation_now:
                         fragment = new NowFragment();
+                        break;
+                    case R.id.navigation_ranking:
+                        fragment = new RankingFragment();
                         break;
                     default:
                         fragment = new BaseFragment();

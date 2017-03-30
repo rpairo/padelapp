@@ -48,4 +48,20 @@
     <!-- Price bar now -->
     <string name="location_club_bar">(Alicante)</string>
 
+    <!-- Player ranking -->
+    <string name="position_player">1.</string>
+    <string name="name_player">Javier Martinez</string>
+    <string name="location_player">San Juan (Alicante)</string>
+    <string name="points_player">3.830</string>
+    <string name="suffix_points_player">points</string>
+
+    <!-- Tab layout ranking -->
+    <string name="title_tab_all">All</string>
+    <string name="title_tab_boys">Boys</string>
+    <string name="title_tab_girls">Girls</string>
+
+    <!-- Fragment ranking -->
+    <string name="title_fragment_ranking">Ranking</string>
+    <string name="level_player_ranking">level 3</string>
+
 </resources>
