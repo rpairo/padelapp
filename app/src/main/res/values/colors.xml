@@ -11,6 +11,7 @@
     <color name="white">#ffffff</color>
     <color name="red">#D32F2F</color>
     <color name="black">#000000</color>
+    <color name="green">#4CAF50</color>
 
     <!-- Activity main -->
     <color name="backgroundActivityMain">@color/darkBackground</color>
@@ -39,5 +40,8 @@
 
     <!-- Price bar now -->
     <color name="backgroundButtonNowMatch">@color/iconsEnabled</color>
+
+    <!-- Price bar my matches -->
+    <color name="backgroundButtonMyMatches">@color/green</color>
 
 </resources>

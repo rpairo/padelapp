@@ -57,4 +57,9 @@
     <dimen name="margin_horizontal_elements_ranking">17dp</dimen>
     <dimen name="margin_vertical_elements_ranking">15dp</dimen>
 
+    <!-- Price bar my matches-->
+    <dimen name="drawable_padding_button">10dp</dimen>
+    <dimen name="padding_right_button_bar_my_matches">30dp</dimen>
+    <dimen name="padding_left_button_bar_my_matches">20dp</dimen>
+
 </resources>

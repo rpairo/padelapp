@@ -65,4 +65,7 @@
     <string name="title_fragment_ranking">Ranking</string>
     <string name="level_player_ranking">level 3</string>
 
+    <!-- Price bar now -->
+    <string name="button_bar_my_matches">Invite</string>
+
 </resources>
