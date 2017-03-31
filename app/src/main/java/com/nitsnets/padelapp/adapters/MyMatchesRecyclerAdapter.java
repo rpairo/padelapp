@@ -2,11 +2,11 @@ package com.nitsnets.padelapp.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.models.Match;
+import com.nitsnets.padelapp.models.Result;
 import com.nitsnets.padelapp.viewholders.MyMatchesViewHolder;
 import com.nitsnets.padelapp.viewholders.MyMatchesTitleResultsViewHolder;
 
@@ -20,7 +20,7 @@ public class MyMatchesRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.
 
     //regions Variables
     private List<Object> matches;
-    private final int MATCH = 0, TITLE = 1;
+    private final int MATCH = 0, TITLE = 1, RESULT = 2;
     //endregion
 
     //region Constructors
@@ -42,6 +42,9 @@ public class MyMatchesRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.
                 break;
             case TITLE:
                 viewHolder = new MyMatchesTitleResultsViewHolder(inflater.inflate(R.layout.layout_my_matches_title_results, parent, false));
+                break;
+            case RESULT:
+                viewHolder = new MyMatchesTitleResultsViewHolder(inflater.inflate(R.layout.layout_result, parent, false));
                 break;
             default:
                 viewHolder = null;
@@ -69,6 +72,9 @@ public class MyMatchesRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.
 
         else if (matches.get(position) instanceof String)
             return TITLE;
+
+        else if (matches.get(position) instanceof Result)
+            return RESULT;
 
         return -1;
     }

@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.adapters.MyMatchesRecyclerAdapter;
 import com.nitsnets.padelapp.models.Match;
+import com.nitsnets.padelapp.models.Result;
 
 import java.util.ArrayList;
 import java.util.List;
