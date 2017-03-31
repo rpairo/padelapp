@@ -71,4 +71,27 @@
     <!-- My matches results -->
     <string name="title_my_results">My Results</string>
 
+    <!-- Date time results -->
+    <string name="date_time_results">22 Feb, 18:00 &#8210; 19:30</string>
+
+    <!-- Player results -->
+    <string name="name_player_result">Javier Martinez Gonzalez</string>
+
+    <!-- Price bar results -->
+    <string name="button_bar_results">Add result</string>
+
+    <!-- Title score results -->
+    <string name="first_column_score_result">1</string>
+    <string name="second_column_score_result">2</string>
+    <string name="third_column_score_result">3</string>
+
+    <!-- Score results -->
+    <string name="score_result">0</string>
+    <string name="description_score_result">Edit score</string>
+
+    <!-- Emotional outcome results -->
+    <string name="result_win">You won</string>
+    <string name="result_lose">You lost</string>
+    <string name="result_points">1.234 points</string>
+
 </resources>

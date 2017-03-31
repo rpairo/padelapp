@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom">
+
+    <!-- First column title -->
+    <TextView
+        android:layout_width="@dimen/size_title_score"
+        android:layout_height="@dimen/size_title_score"
+        android:layout_alignParentStart="true"
+        android:gravity="center|bottom"
+        android:includeFontPadding="false"
+        android:text="@string/first_column_score_result"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_medium_size"
+        android:textStyle="bold" />
+
+    <!-- Second column title -->
+    <TextView
+        android:layout_width="@dimen/size_title_score"
+        android:layout_height="@dimen/size_title_score"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|bottom"
+        android:includeFontPadding="false"
+        android:text="@string/second_column_score_result"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_medium_size"
+        android:textStyle="bold" />
+
+    <!-- Third column title -->
+    <TextView
+        android:layout_width="@dimen/size_title_score"
+        android:layout_height="@dimen/size_title_score"
+        android:layout_alignParentEnd="true"
+        android:gravity="center|bottom"
+        android:includeFontPadding="false"
+        android:text="@string/third_column_score_result"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_medium_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

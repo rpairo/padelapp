@@ -44,4 +44,7 @@
     <!-- Price bar my matches -->
     <color name="backgroundButtonMyMatches">@color/green</color>
 
+    <!-- Price bar results -->
+    <color name="backgroundButtonResults">@color/iconsEnabled</color>
+
 </resources>

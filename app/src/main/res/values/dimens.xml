@@ -66,5 +66,26 @@
     <dimen name="margin_bottom_title_results">30dp</dimen>
     <dimen name="margin_top_title_results">50dp</dimen>
     <dimen name="padding_left_title_results">15dp</dimen>
+    <dimen name="image_size_profile_result">35dp</dimen>
 
+    <!-- Player results -->
+    <dimen name="margin_left_name_player">10dp</dimen>
+
+    <!-- Title score results -->
+    <dimen name="size_title_score">30dp</dimen>
+
+    <!-- Score results -->
+    <dimen name="size_score_results">30dp</dimen>
+
+    <!-- Card view results -->
+    <dimen name="margin_bottom_cardview_results">15dp</dimen>
+    <dimen name="padding_cardview_results">17dp</dimen>
+    <dimen name="margin_left_player_result">5dp</dimen>
+    <dimen name="margin_right_player_result">20dp</dimen>
+    <dimen name="margin_top_third_player_result">15dp</dimen>
+    <dimen name="margin_top_normal_player_result">7dp</dimen>
+    <dimen name="margin_top_first_player_result">40dp</dimen>
+    <dimen name="size_image_emotional_outcome">25dp</dimen>
+    <dimen name="margin_left_text_emotional_outcome">5dp</dimen>
+    <dimen name="margin_top_separators_result">30dp</dimen>
 </resources>

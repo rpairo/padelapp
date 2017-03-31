@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Player result -->
+    <integer name="max_length_name">16</integer>
+    <integer name="max_lines_name">1</integer>
+
+    <!-- Emotional outcome -->
+    <integer name="max_lines_result">1</integer>
+
+</resources>
