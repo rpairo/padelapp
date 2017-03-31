@@ -6,8 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.nitsnets.padelapp.R;
-import com.nitsnets.padelapp.models.Match;
-import com.nitsnets.padelapp.viewholders.NowViewHolder;
+import com.nitsnets.padelapp.models.Player;
 import com.nitsnets.padelapp.viewholders.RankingPlayerViewHolder;
 
 import java.util.List;
@@ -19,12 +18,12 @@ import java.util.List;
 public class RankingRecyclerAdapter extends RecyclerView.Adapter<RankingPlayerViewHolder> {
 
     //regions Variables
-    private List<Match> matches;
+    private List<Player> players;
     //endregion
 
     //region Constructors
-    public RankingRecyclerAdapter(List<Match> matches) {
-        this.matches = matches;
+    public RankingRecyclerAdapter(List<Player> players) {
+        this.players = players;
     }
     //endregions
 
@@ -47,16 +46,16 @@ public class RankingRecyclerAdapter extends RecyclerView.Adapter<RankingPlayerVi
 
     @Override
     public int getItemCount() {
-        return this.matches.size();
+        return this.players.size();
     }
     //endregion
 
     //region Auxiliary functions
-    public void addAll(List<Match> matches) {
-        if (matches == null)
+    public void addAll(List<Player> players) {
+        if (players == null)
             throw new NullPointerException();
 
-        this.matches.addAll(matches);
+        this.players.addAll(players);
         this.notifyDataSetChanged();
     }
     //endregion

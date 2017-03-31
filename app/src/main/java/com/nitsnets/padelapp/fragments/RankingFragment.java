@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.adapters.RankingRecyclerAdapter;
-import com.nitsnets.padelapp.models.Match;
+import com.nitsnets.padelapp.models.Player;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +32,7 @@ public class RankingFragment extends BaseFragment {
     private Unbinder unbinder;
 
     private RankingRecyclerAdapter rankingRecyclerAdapter;
-    private List<Match> players;
+    private List<Player> players;
     //endregion
 
     //region Lifecycle
