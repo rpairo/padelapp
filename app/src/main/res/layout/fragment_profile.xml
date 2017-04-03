@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/header_name_profile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_header_profile_name"
+                android:layout_alignParentTop="true"
+                android:background="@color/backgroundHeaderName"
+                android:gravity="bottom|center_horizontal"
+                android:maxLines="@integer/max_lines_header_name"
+                android:paddingBottom="@dimen/padding_bottom_header_profile_name"
+                android:paddingStart="@dimen/padding_start_header_profile_name"
+                android:text="@string/name_user_profile"
+                android:textColor="@color/userNameHeader"
+                android:textSize="@dimen/text_big_xl_size"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/player_stadistics_profile"
+                layout="@layout/layout_player_stadistics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_name_profile" />
+
+            <include
+                android:id="@+id/second_separator_profile"
+                layout="@layout/layout_separator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/player_stadistics_profile"
+                android:layout_marginEnd="@dimen/margin_horizontal_separator_profile"
+                android:layout_marginStart="@dimen/margin_horizontal_separator_profile"
+                android:layout_marginTop="@dimen/margin_top_second_separator_profile" />
+
+            <include
+                android:id="@+id/edit_availability_user_profile"
+                layout="@layout/layout_score_edit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/availability_user_profile"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/availability_user_profile"
+                android:layout_below="@+id/second_separator_profile"
+                android:layout_marginEnd="@dimen/margin_end_score_availability_edit"
+                android:layout_marginStart="@dimen/margin_start_score_availability_edit" />
+
+            <TextView
+                android:id="@+id/availability_user_profile"
+                android:layout_width="@dimen/width_availability_user"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second_separator_profile"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/margin_vertical_availability_user"
+                android:layout_marginTop="@dimen/margin_vertical_availability_user"
+                android:text="@string/availability_user_profile"
+                android:textSize="@dimen/text_small_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/availability_user_profile"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/availability_user_profile"
+                android:layout_toStartOf="@+id/availability_user_profile"
+                android:contentDescription="@string/description_racket"
+                android:scaleType="center"
+                android:src="@drawable/ic_racket_black"
+                android:tint="@color/iconsEnabled" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/availability_user_profile"
+                android:background="@color/darkBackground"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/padding_horizontal_label_configuration"
+                    android:paddingStart="@dimen/padding_start_label_configuration"
+                    android:paddingTop="@dimen/padding_horizontal_label_configuration"
+                    android:text="@string/title_configuration"
+                    android:textSize="@dimen/text_big_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/edit_profile_button_profile"
+                    style="@style/ButtonConfiguration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/arrow_end_gray"
+                    android:paddingEnd="@dimen/padding_end_button_configurations"
+                    android:text="@string/title_button_edit_profile"
+                    android:textSize="@dimen/text_medium_size" />
+
+                <TextView
+                    android:id="@+id/preferences_for_playing_button_profile"
+                    style="@style/ButtonConfiguration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/arrow_end_gray"
+                    android:paddingEnd="@dimen/padding_end_button_configurations"
+                    android:text="@string/title_button_preferences_for_playing"
+                    android:textSize="@dimen/text_medium_size" />
+
+                <TextView
+                    android:id="@+id/block_user_button_profile"
+                    style="@style/ButtonConfiguration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/arrow_end_gray"
+                    android:paddingEnd="@dimen/padding_end_button_configurations"
+                    android:text="@string/title_button_block_users"
+                    android:textSize="@dimen/text_medium_size" />
+
+                <TextView
+                    android:id="@+id/notifications_button_profile"
+                    style="@style/ButtonConfiguration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/arrow_end_gray"
+                    android:paddingEnd="@dimen/padding_end_button_configurations"
+                    android:text="@string/title_button_notifications"
+                    android:textSize="@dimen/text_medium_size" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_image_user_profile"
+            android:layout_width="@dimen/size_float_action_button_image_profile"
+            android:layout_height="@dimen/size_float_action_button_image_profile"
+            android:layout_marginStart="@dimen/margin_start_float_action_button_image_profile"
+            android:contentDescription="@string/description_image_profile"
+            android:src="@drawable/ic_profile_empty"
+            app:backgroundTint="@color/white"
+            app:layout_anchor="@+id/header_name_profile"
+            app:layout_anchorGravity="bottom|start" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

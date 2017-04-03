@@ -4,5 +4,5 @@
     android:layout_height="match_parent"
     android:background="?attr/selectableItemBackgroundBorderless"
     android:contentDescription="@string/description_score_result"
-    android:scaleType="fitXY"
+    android:scaleType="center"
     android:src="@drawable/ic_edit_score" />

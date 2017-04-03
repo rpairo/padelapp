@@ -33,4 +33,17 @@
         <item name="textAllCaps">false</item>
     </style>
 
+    <!-- Configuration buttons style -->
+    <style name="ButtonConfiguration" parent="ButtonConfigurationChild" />
+
+    <style name="ButtonConfigurationChild">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/backgroundButtonConfigurations</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_button_configuration</item>
+        <item name="android:paddingBottom">@dimen/paggind_vertical_button_configuration</item>
+        <item name="android:paddingTop">@dimen/paggind_vertical_button_configuration</item>
+        <item name="android:paddingStart">@dimen/paggind_start_button_configuration</item>
+    </style>
+
 </resources>

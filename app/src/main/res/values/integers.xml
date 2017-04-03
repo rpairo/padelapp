@@ -8,4 +8,10 @@
     <!-- Emotional outcome -->
     <integer name="max_lines_result">1</integer>
 
+    <!-- Profile -->
+    <integer name="max_lines_header_name">1</integer>
+    <integer name="max_lines_location_user">1</integer>
+    <integer name="max_lines_points_user">1</integer>
+    <integer name="max_lines_level_user">1</integer>
+
 </resources>

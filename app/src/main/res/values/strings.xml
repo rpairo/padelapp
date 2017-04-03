@@ -94,4 +94,27 @@
     <string name="result_lose">You lost</string>
     <string name="result_points">1.234 points</string>
 
+    <!-- Profile -->
+    <string name="name_user_profile">Juan Jiménez</string>
+    <string name="location_user_profile">San Juan (Alicante)</string>
+    <string name="points_user_profile">3.830</string>
+    <string name="label_points_user_profile">points</string>
+    <string name="level_user_profile">0</string>
+    <string name="label_level_user_profile">level</string>
+    <string name="matches_lost_profile">09</string>
+    <string name="label_matches_lost_profile">lost</string>
+    <string name="description_sad_face_profile">Sad face</string>
+    <string name="matches_won_profile">132</string>
+    <string name="label_matches_won_profile">won</string>
+    <string name="description_happy_face_profile">Happy face</string>
+    <string name="matches_played_profile">284 matches played</string>
+    <string name="availability_user_profile">Matches 20 kms away from Alicante, on Mondays, Tuesdays, Wednesdays from 9:00 &#8210; 15:00</string>
+    <string name="description_racket">Racket</string>
+    <string name="title_button_edit_profile">Edit profile</string>
+    <string name="title_button_preferences_for_playing">Preferences for playing</string>
+    <string name="title_button_block_users">Block users</string>
+    <string name="title_button_notifications">Notifications</string>
+    <string name="description_image_profile">Image profile</string>
+    <string name="title_configuration">Configuration</string>
+
 </resources>

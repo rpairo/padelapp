@@ -3,6 +3,7 @@
 
     <!-- Text -->
     <dimen name="text_giant_size">28sp</dimen>
+    <dimen name="text_big_xl_size">22sp</dimen>
     <dimen name="text_big_size">20sp</dimen>
     <dimen name="text_medium_size">16sp</dimen>
     <dimen name="text_small_size">12sp</dimen>
@@ -88,4 +89,46 @@
     <dimen name="size_image_emotional_outcome">25dp</dimen>
     <dimen name="margin_left_text_emotional_outcome">5dp</dimen>
     <dimen name="margin_top_separators_result">30dp</dimen>
+
+    <!-- Header profile -->
+    <dimen name="height_header_profile_name">100dp</dimen>
+    <dimen name="padding_bottom_header_profile_name">5dp</dimen>
+    <dimen name="padding_start_header_profile_name">40dp</dimen>
+    <dimen name="margin_start_float_action_button_image_profile">30dp</dimen>
+    <dimen name="size_float_action_button_image_profile">70dp</dimen>
+
+    <!-- Points & level profile -->
+    <dimen name="padding_start_location_user">40dp</dimen>
+    <dimen name="padding_top_location_user">5dp</dimen>
+    <dimen name="width_points_user">100dp</dimen>
+    <dimen name="margin_end_points_user">20dp</dimen>
+    <dimen name="margin_top_points_user">30dp</dimen>
+    <dimen name="width_shield_profile">40dp</dimen>
+    <dimen name="margin_end_shield_profile">15dp</dimen>
+
+    <!-- Result mathes profile -->
+    <dimen name="margin_horizontal_separator_profile">17dp</dimen>
+    <dimen name="margin_top_first_separator_profile">50dp</dimen>
+    <dimen name="margin_top_second_separator_profile">25dp</dimen>
+    <dimen name="width_match_won_lost">90dp</dimen>
+    <dimen name="width_face_match_won_lost">40dp</dimen>
+    <dimen name="margin_top_match_won_lost">30dp</dimen>
+    <dimen name="margin_end_face_match_won_lost">20dp</dimen>
+    <dimen name="margin_top_matches_played">40dp</dimen>
+    <dimen name="margin_end_lost_matches_profile">10dp</dimen>
+
+    <!-- Availability profile -->
+    <dimen name="margin_end_score_availability_edit">30dp</dimen>
+    <dimen name="margin_start_score_availability_edit">10dp</dimen>
+    <dimen name="width_availability_user">200dp</dimen>
+    <dimen name="margin_vertical_availability_user">30dp</dimen>
+
+    <!-- Configuration profile -->
+    <dimen name="padding_horizontal_label_configuration">20dp</dimen>
+    <dimen name="padding_start_label_configuration">25dp</dimen>
+    <dimen name="padding_end_button_configurations">10dp</dimen>
+    <dimen name="margin_bottom_button_configuration">10dp</dimen>
+    <dimen name="paggind_vertical_button_configuration">12dp</dimen>
+    <dimen name="paggind_start_button_configuration">20dp</dimen>
+
 </resources>

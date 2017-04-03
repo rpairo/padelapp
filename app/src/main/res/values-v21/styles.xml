@@ -6,4 +6,10 @@
         <item name="android:navigationBarColor">@color/backgroundNavigationBar</item>
     </style>
 
+    <!-- Configuration buttons style -->
+    <style name="ButtonConfiguration" parent="ButtonConfigurationChild">
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
 </resources>
