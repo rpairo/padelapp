@@ -8,12 +8,113 @@
     <string name="first_title_toolbar_main">Padel</string>
     <string name="last_title_toolbar_main">app</string>
     <string name="level_toolbar_main">/ level 3</string>
+    <string name="image_search_description">Search</string>
+    <string name="image_notifications_description">Notifications</string>
 
-    <!-- Bottom Navigation -->
+    <!-- Bottom navigation -->
     <string name="title_matches">Matches</string>
     <string name="title_now">Now</string>
     <string name="title_my_matches">My Matches</string>
     <string name="title_ranking">Ranking</string>
     <string name="title_profile">Profile</string>
+
+    <!-- Date time -->
+    <string name="date_time_weekday">Monday</string>
+    <string name="date_time_day_month">1 January</string>
+    <string name="date_time_hour">10:20</string>
+    <string name="image_clock_description">Clock</string>
+
+    <!-- Separators match -->
+    <string name="image_separators_description">Separators</string>
+
+    <!-- Player match -->
+    <string name="versus_teams">VS</string>
+    <string name="amount_players_match">4 are missing</string>
+    <string name="image_player_description">Player profile picture</string>
+
+    <!-- Price bar -->
+    <string name="image_club_description">Club logo</string>
+    <string name="price_match">6,50€</string>
+    <string name="phrase_person_price_bar">per person</string>
+    <string name="prefix_club_bar">Club Atlético</string>
+    <string name="name_club_bar">Montemar</string>
+    <string name="button_bar">Sign up</string>
+
+    <!-- Date time now -->
+    <string name="date_time_hour_now">10:20:30</string>
+    <string name="left_time_now">left</string>
+    <string name="weekday_now">Today</string>
+    <string name="date_time_match_now">at 18:00</string>
+
+    <!-- Price bar now -->
+    <string name="location_club_bar">(Alicante)</string>
+
+    <!-- Player ranking -->
+    <string name="position_player">1.</string>
+    <string name="name_player">Javier Martinez</string>
+    <string name="location_player">San Juan (Alicante)</string>
+    <string name="points_player">3.830</string>
+    <string name="suffix_points_player">points</string>
+
+    <!-- Tab layout ranking -->
+    <string name="title_tab_all">All</string>
+    <string name="title_tab_boys">Boys</string>
+    <string name="title_tab_girls">Girls</string>
+
+    <!-- Fragment ranking -->
+    <string name="title_fragment_ranking">Ranking</string>
+    <string name="level_player_ranking">level 3</string>
+
+    <!-- Price bar now -->
+    <string name="button_bar_my_matches">Invite</string>
+
+    <!-- My matches results -->
+    <string name="title_my_results">My Results</string>
+
+    <!-- Date time results -->
+    <string name="date_time_results">22 Feb, 18:00 &#8210; 19:30</string>
+
+    <!-- Player results -->
+    <string name="name_player_result">Javier Martinez Gonzalez</string>
+
+    <!-- Price bar results -->
+    <string name="button_bar_results">Add result</string>
+
+    <!-- Title score results -->
+    <string name="first_column_score_result">1</string>
+    <string name="second_column_score_result">2</string>
+    <string name="third_column_score_result">3</string>
+
+    <!-- Score results -->
+    <string name="score_result">0</string>
+    <string name="description_score_result">Edit score</string>
+
+    <!-- Emotional outcome results -->
+    <string name="result_win">You won</string>
+    <string name="result_lose">You lost</string>
+    <string name="result_points">1.234 points</string>
+
+    <!-- Profile -->
+    <string name="name_user_profile">Juan Jiménez</string>
+    <string name="location_user_profile">San Juan (Alicante)</string>
+    <string name="points_user_profile">3.830</string>
+    <string name="label_points_user_profile">points</string>
+    <string name="level_user_profile">0</string>
+    <string name="label_level_user_profile">level</string>
+    <string name="matches_lost_profile">09</string>
+    <string name="label_matches_lost_profile">lost</string>
+    <string name="description_sad_face_profile">Sad face</string>
+    <string name="matches_won_profile">132</string>
+    <string name="label_matches_won_profile">won</string>
+    <string name="description_happy_face_profile">Happy face</string>
+    <string name="matches_played_profile">284 matches played</string>
+    <string name="availability_user_profile">Matches 20 kms away from Alicante, on Mondays, Tuesdays, Wednesdays from 9:00 &#8210; 15:00</string>
+    <string name="description_racket">Racket</string>
+    <string name="title_button_edit_profile">Edit profile</string>
+    <string name="title_button_preferences_for_playing">Preferences for playing</string>
+    <string name="title_button_block_users">Block users</string>
+    <string name="title_button_notifications">Notifications</string>
+    <string name="description_image_profile">Image profile</string>
+    <string name="title_configuration">Configuration</string>
 
 </resources>

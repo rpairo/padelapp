@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_partidos"
+        android:id="@+id/navigation_matches"
         android:icon="@drawable/ic_counter_black_24dp"
         android:title="@string/title_matches" />
 
     <item
-        android:id="@+id/navigation_ahora"
+        android:id="@+id/navigation_now"
         android:icon="@drawable/ic_clock_black_24dp"
         android:title="@string/title_now" />
 
     <item
-        android:id="@+id/navigation_mis_partidos"
+        android:id="@+id/navigation_my_matches"
         android:icon="@drawable/ic_tennis_black_24dp"
         android:title="@string/title_my_matches" />
 
@@ -22,7 +22,7 @@
         android:title="@string/title_ranking" />
 
     <item
-        android:id="@+id/navigation_perfil"
+        android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_account_black_24dp"
         android:title="@string/title_profile" />
 

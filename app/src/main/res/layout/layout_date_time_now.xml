@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBackground"
+    android:paddingBottom="@dimen/padding_vertical_datetime"
+    android:paddingEnd="@dimen/padding_horizontal_datetime"
+    android:paddingStart="@dimen/padding_horizontal_datetime"
+    android:paddingTop="@dimen/padding_vertical_datetime">
+
+    <!-- Weekday match -->
+    <TextView
+        android:id="@+id/weekday_match_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/weekday_now"
+        android:textSize="@dimen/text_big_size"
+        android:textStyle="bold" />
+
+    <!-- Date match -->
+    <TextView
+        android:id="@+id/date_time_match_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_left_date"
+        android:layout_toEndOf="@+id/weekday_match_now"
+        android:layout_toStartOf="@+id/left_time"
+        android:text="@string/date_time_match_now"
+        android:textSize="@dimen/text_big_size" />
+
+    <TextView
+        android:id="@+id/left_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_right_clock"
+        android:layout_toStartOf="@+id/time_match"
+        android:text="@string/left_time_now"
+        android:textColor="@color/textTimeNow"
+        android:textSize="@dimen/text_small_size" />
+
+    <!-- Time match -->
+    <TextView
+        android:id="@+id/time_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/date_time_hour_now"
+        android:textColor="@color/textTimeNow"
+        android:textSize="@dimen/text_giant_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

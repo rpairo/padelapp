@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBackground"
+    android:paddingBottom="@dimen/padding_vertical_datetime"
+    android:paddingEnd="@dimen/padding_horizontal_datetime"
+    android:paddingStart="@dimen/padding_horizontal_datetime"
+    android:paddingTop="@dimen/padding_vertical_datetime">
+
+    <!-- Weekday match -->
+    <TextView
+        android:id="@+id/weekday_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/date_time_weekday"
+        android:textSize="@dimen/text_big_size"
+        android:textStyle="bold" />
+
+    <!-- Date match -->
+    <TextView
+        android:id="@+id/day_month_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_left_date"
+        android:layout_toEndOf="@+id/weekday_match"
+        android:layout_toStartOf="@+id/icon_clock"
+        android:text="@string/date_time_day_month"
+        android:textSize="@dimen/text_big_size" />
+
+    <ImageView
+        android:id="@+id/icon_clock"
+        android:layout_width="@dimen/image_size_clock"
+        android:layout_height="@dimen/image_size_clock"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_right_clock"
+        android:layout_toStartOf="@+id/time_match"
+        android:contentDescription="@string/image_clock_description"
+        android:src="@drawable/ic_clock_black_24dp"
+        android:tint="@color/iconsEnabled" />
+
+    <!-- Time match -->
+    <TextView
+        android:id="@+id/time_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/date_time_hour"
+        android:textSize="@dimen/text_giant_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>
