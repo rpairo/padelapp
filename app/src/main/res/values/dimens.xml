@@ -10,6 +10,7 @@
 
     <!-- Elevations -->
     <dimen name="elegant_elevation">1dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
 
     <!-- Toolbar main -->
     <dimen name="padding_horizontal_toolbar">10dp</dimen>

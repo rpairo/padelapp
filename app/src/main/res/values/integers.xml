@@ -14,4 +14,7 @@
     <integer name="max_lines_points_user">1</integer>
     <integer name="max_lines_level_user">1</integer>
 
+    <!-- Toolbar -->
+    <integer name="duration_elevation">1</integer>
+
 </resources>

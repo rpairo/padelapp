@@ -4,6 +4,9 @@
     <!-- App -->
     <string name="app_name">Padelapp</string>
 
+    <!-- Toolbar -->
+    <string name="property_name_elevation">elevation</string>
+
     <!-- Toolbar main -->
     <string name="first_title_toolbar_main">Padel</string>
     <string name="last_title_toolbar_main">app</string>
