@@ -191,4 +191,19 @@
     <!-- Border -->
     <dimen name="width_border_view">1dp</dimen>
 
+    <!-- Blocked player -->
+    <dimen name="padding_blocked_players">17dp</dimen>
+    <dimen name="margin_top_recycler_blocked_players">20dp</dimen>
+    <dimen name="margin_top_label_blocked_players">40dp</dimen>
+    <dimen name="margin_top_only_boys_blocked_players">10dp</dimen>
+    <dimen name="size_photo_player_blocked_players">50dp</dimen>
+    <dimen name="margin_end_player_blocked_players">10dp</dimen>
+
+    <!-- Cardview player blocked -->
+    <dimen name="margin_bottom_cardview_blocked_players">5dp</dimen>
+    <dimen name="padding_vertical_cardview_blocked_players">15dp</dimen>
+
+    <!-- Shadow blocked user -->
+    <dimen name="shadow_blocked_user">2dp</dimen>
+
 </resources>

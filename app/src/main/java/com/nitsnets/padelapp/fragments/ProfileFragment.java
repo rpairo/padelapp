@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.nitsnets.padelapp.R;
+import com.nitsnets.padelapp.activities.BlockedUsersActivity;
 import com.nitsnets.padelapp.activities.EditProfileActivity;
 import com.nitsnets.padelapp.activities.PreferencesPlayingActivity;
 
@@ -61,6 +62,11 @@ public class ProfileFragment extends BaseFragment {
     @OnClick(R.id.preferences_for_playing_button_profile)
     public void callPreferencesPlayingActivity(View view) {
         startActivity(new Intent(getActivity(), PreferencesPlayingActivity.class));
+    }
+
+    @OnClick(R.id.block_user_button_profile)
+    public void callBlockedUsersActivity(View view) {
+        startActivity(new Intent(getActivity(), BlockedUsersActivity.class));
     }
     //endregion
 }

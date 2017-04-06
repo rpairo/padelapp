@@ -179,4 +179,11 @@
     <string name="button_repeat_work">Repeat work</string>
     <string name="button_repeat_all_week">Repeat all week</string>
 
+    <!-- Blocked users -->
+    <string name="block_lower_level_players">Block lower-level players</string>
+    <string name="only_boys_players">Playing only with boys</string>
+    <string name="label_blocked_players">Blocked players</string>
+    <string name="block_button_blocked_players">+ Block</string>
+    <string name="unlock_player_blocked_players">Unlock</string>
+
 </resources>

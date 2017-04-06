@@ -61,4 +61,7 @@
 
     <!-- Transparent -->
     <color name="black_transparent">#cd000000</color>
+
+    <!-- Shadow blocked -->
+    <color name="shadow_blocked">#CABBBBBB</color>
 </resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBackground"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <include
+        android:id="@+id/appbar_main"
+        layout="@layout/toolbar_blocked_users" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow_bottom"
+        android:padding="@dimen/padding_blocked_players">
+
+        <FrameLayout
+            android:id="@+id/lower_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_mail_edit_profile">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                android:gravity="center_vertical"
+                android:maxLines="@integer/max_lines_edit_profile"
+                android:paddingBottom="@dimen/padding_vertical_birthday"
+                android:paddingEnd="@dimen/padding_horizontal_birthday"
+                android:paddingStart="@dimen/padding_horizontal_birthday"
+                android:paddingTop="@dimen/padding_vertical_birthday"
+                android:text="@string/block_lower_level_players"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_medium_size" />
+
+            <Switch
+                android:id="@+id/switch_block_lower_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="@dimen/margin_end_switch_federated_edit_profile" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/only_boys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lower_level"
+            android:layout_marginTop="@dimen/margin_top_only_boys_blocked_players">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                android:gravity="center_vertical"
+                android:maxLines="@integer/max_lines_edit_profile"
+                android:paddingBottom="@dimen/padding_vertical_birthday"
+                android:paddingEnd="@dimen/padding_horizontal_birthday"
+                android:paddingStart="@dimen/padding_horizontal_birthday"
+                android:paddingTop="@dimen/padding_vertical_birthday"
+                android:text="@string/only_boys_players"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_medium_size" />
+
+            <Switch
+                android:id="@+id/switch_only_boys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="@dimen/margin_end_switch_federated_edit_profile" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/label_players_blockeds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/only_boys"
+            android:layout_marginTop="@dimen/margin_top_label_blocked_players"
+            android:text="@string/label_blocked_players"
+            android:textSize="@dimen/text_big_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/block_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/label_players_blockeds"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/label_players_blockeds"
+            android:layout_below="@+id/only_boys"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/block_button_blocked_players"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/text_medium_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_blocked_players"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
