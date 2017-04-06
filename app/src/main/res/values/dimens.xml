@@ -170,4 +170,25 @@
     <dimen name="margin_bottom_federated_edit_profile">20dp</dimen>
     <dimen name="margin_end_switch_federated_edit_profile">10dp</dimen>
 
+    <!-- Preferences for playing -->
+    <dimen name="margin_top_elements_preferences_playing">25dp</dimen>
+    <dimen name="padding_preferences_playing">17dp</dimen>
+    <dimen name="margin_top_location_preferences_playing">30dp</dimen>
+    <dimen name="margin_top_label_selected_preferences_playing">20dp</dimen>
+    <dimen name="margin_top_seekbar_preferences_playing">60dp</dimen>
+    <dimen name="margin_top_schedule_label_preferences_playing">50dp</dimen>
+    <dimen name="padding_horizontal_preferences_playing">17dp</dimen>
+    <dimen name="margin_top_customize_schedule_label_preferences_playing">10dp</dimen>
+    <dimen name="margin_top_tab_layout_preferences_playing">20dp</dimen>
+    <dimen name="width_checkbox_time_preferences_playing">160dp</dimen>
+    <dimen name="padding_vertical_checkbox_preferences_playing">15dp</dimen>
+    <dimen name="padding_start_checkbox_preferences_playing">10dp</dimen>
+    <dimen name="margin_top_checkbox_preferences_playing">10dp</dimen>
+    <dimen name="margin_left_checkbox_preferences_playing">10dp</dimen>
+    <dimen name="margin_top_repeat_buttons_preferences_playing">25dp</dimen>
+    <dimen name="padding_button_select_preferences_playing">15dp</dimen>
+
+    <!-- Border -->
+    <dimen name="width_border_view">1dp</dimen>
+
 </resources>

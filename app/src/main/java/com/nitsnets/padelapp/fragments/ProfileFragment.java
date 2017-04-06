@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.activities.EditProfileActivity;
+import com.nitsnets.padelapp.activities.PreferencesPlayingActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -55,6 +56,11 @@ public class ProfileFragment extends BaseFragment {
     @OnClick(R.id.edit_profile_button_profile)
     public void callEditProfileActivity(View view) {
         startActivity(new Intent(getActivity(), EditProfileActivity.class));
+    }
+
+    @OnClick(R.id.preferences_for_playing_button_profile)
+    public void callPreferencesPlayingActivity(View view) {
+        startActivity(new Intent(getActivity(), PreferencesPlayingActivity.class));
     }
     //endregion
 }

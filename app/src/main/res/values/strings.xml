@@ -146,4 +146,37 @@
     <string name="hint_mobile_edit_profile">Mobile</string>
     <string name="hint_federated_edit_profile">Federated</string>
 
+    <!-- Toolbar preferences for playing -->
+    <string name="title_toolbar_preferences_for_playing">Preferences for playing</string>
+
+    <!-- Preferences for playing -->
+    <string name="title_select_far_match">Select how far you want to show you matches</string>
+    <string name="label_schedule_preferences_playing">Schedule</string>
+    <string name="custom_label_schedule_preferences_playing">Customize the times you can play to offer matches in these time zones</string>
+    <string name="item_tab_monday">MO</string>
+    <string name="item_tab_tuesday">TUE</string>
+    <string name="item_tab_wednesday">WED</string>
+    <string name="item_tab_thursday">THU</string>
+    <string name="item_tab_friday">FRI</string>
+    <string name="item_tab_saturday">SAT</string>
+    <string name="item_tab_sunday">SUN</string>
+
+    <!-- Time schedule preferences playing -->
+    <string name="check_nine">9:00</string>
+    <string name="check_ten">10:00</string>
+    <string name="check_eleven">11:00</string>
+    <string name="check_twelve">12:00</string>
+    <string name="check_thirteen">13:00</string>
+    <string name="check_fourteen">14:00</string>
+    <string name="check_fifteen">15:00</string>
+    <string name="check_sixteen">16:00</string>
+    <string name="check_seventeen">17:00</string>
+    <string name="check_eighteen">18:00</string>
+    <string name="check_nineteen">19:00</string>
+    <string name="check_twenty">20:00</string>
+    <string name="check_twenty_one">21:00</string>
+    <string name="check_twenty_two">22:00</string>
+    <string name="button_repeat_work">Repeat work</string>
+    <string name="button_repeat_all_week">Repeat all week</string>
+
 </resources>
