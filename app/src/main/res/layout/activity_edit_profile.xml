@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <include
+        android:id="@+id/appbar_main"
+        layout="@layout/toolbar_edit_profile" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundActivityMain"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:paddingEnd="@dimen/padding_horizontal_edit_profile"
+            android:paddingStart="@dimen/padding_horizontal_edit_profile"
+            android:paddingTop="@dimen/padding_top_edit_profile">
+
+            <!-- Name -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_names"
+                android:layout_width="@dimen/width_name_edit_profile"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/name_edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_name_edit_profile"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/hint_input_layout_edit_profile"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/hint_name_edit_profile"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapWords"
+                    android:maxLines="@integer/max_lines_edit_profile"
+                    android:paddingEnd="@dimen/padding_name_edit_profile"
+                    android:paddingStart="@dimen/padding_name_edit_profile"
+                    android:paddingTop="@dimen/padding_name_edit_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_medium_size" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Last name -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_last_names"
+                android:layout_width="@dimen/width_name_edit_profile"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/til_names"
+                android:layout_marginTop="@dimen/margin_top_last_name_edit_profile">
+
+                <EditText
+                    android:id="@+id/last_names_edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_name_edit_profile"
+                    android:layout_below="@+id/til_names"
+                    android:background="@drawable/hint_input_layout_edit_profile"
+                    android:hint="@string/hint_last_name_edit_profile"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapWords"
+                    android:maxLines="@integer/max_lines_edit_profile"
+                    android:paddingEnd="@dimen/padding_name_edit_profile"
+                    android:paddingStart="@dimen/padding_name_edit_profile"
+                    android:paddingTop="@dimen/padding_name_edit_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_medium_size" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Photo profile -->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/til_last_names"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/til_names"
+                android:layout_marginEnd="@dimen/margin_end_photo_edit_profile"
+                android:layout_toStartOf="@+id/til_names"
+                android:background="@color/primaryDark">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="@dimen/drawable_padding_photo_edit_profile"
+                    android:drawableTop="@drawable/logo_gray"
+                    android:text="@string/title_photo_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_small_size" />
+
+            </FrameLayout>
+
+            <!-- Gender -->
+            <RadioGroup
+                android:id="@+id/toggle_genders"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_toogle_genders_edit_profile"
+                android:layout_below="@+id/til_last_names"
+                android:layout_marginTop="@dimen/margin_top_toogle_genders_edit_profile"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/gender_boy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@integer/weight_gender_edit_profile"
+                    android:background="@drawable/toggle_gender_background"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/drawable_padding_gender_edit_profile"
+                    android:drawableStart="@drawable/gender_male_gray"
+                    android:paddingStart="@dimen/padding_start_gender_edit_profile"
+                    android:text="@string/boy_gender_edit_profile"
+                    android:textColor="@color/toggle_gender_foreground"
+                    android:textSize="@dimen/text_medium_size" />
+
+                <RadioButton
+                    android:id="@+id/gender_girl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@integer/weight_gender_edit_profile"
+                    android:background="@drawable/toggle_gender_background"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawablePadding="@dimen/drawable_padding_gender_edit_profile"
+                    android:drawableStart="@drawable/gender_female_gray"
+                    android:paddingStart="@dimen/padding_start_gender_edit_profile"
+                    android:text="@string/girl_gender_edit_profile"
+                    android:textColor="@color/toggle_gender_foreground"
+                    android:textSize="@dimen/text_medium_size" />
+            </RadioGroup>
+
+            <!-- Email -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/toggle_genders"
+                android:layout_marginTop="@dimen/margin_top_mail_edit_profile"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/mail_edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_mail_edit_profile"
+                    android:layout_below="@+id/til_names"
+                    android:background="@drawable/hint_input_layout_edit_profile"
+                    android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                    android:drawableStart="@drawable/mail_gray"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_mail_edit_profile"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="@integer/max_lines_edit_profile"
+                    android:paddingEnd="@dimen/padding_mail_edit_profile"
+                    android:paddingStart="@dimen/padding_mail_edit_profile"
+                    android:paddingTop="@dimen/padding_mail_edit_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_medium_size" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Password -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/til_mail">
+
+                <EditText
+                    android:id="@+id/password_edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_mail_edit_profile"
+                    android:layout_below="@+id/til_names"
+                    android:background="@drawable/hint_input_layout_edit_profile"
+                    android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                    android:drawableStart="@drawable/lock_gray"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_password_edit_profile"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLines="@integer/max_lines_edit_profile"
+                    android:paddingEnd="@dimen/padding_mail_edit_profile"
+                    android:paddingStart="@dimen/padding_mail_edit_profile"
+                    android:paddingTop="@dimen/padding_mail_edit_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_medium_size" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/label_optional_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/til_password"
+                android:layout_marginTop="@dimen/margin_top_optional_data"
+                android:text="@string/label_optional_data_edit_profile"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_big_size" />
+
+            <!-- Birthday -->
+            <TextView
+                android:id="@+id/birthdate_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/label_optional_data"
+                android:layout_marginTop="@dimen/margin_top_birthday"
+                android:background="@color/white"
+                android:drawableEnd="@drawable/arrow_down_gray"
+                android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                android:drawableStart="@drawable/calendar_gray"
+                android:gravity="center_vertical"
+                android:maxLines="@integer/max_lines_edit_profile"
+                android:paddingBottom="@dimen/padding_vertical_birthday"
+                android:paddingEnd="@dimen/padding_horizontal_birthday"
+                android:paddingStart="@dimen/padding_horizontal_birthday"
+                android:paddingTop="@dimen/padding_vertical_birthday"
+                android:text="@string/hint_birthday_edit_profile"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_medium_size" />
+
+            <!-- Location -->
+            <TextView
+                android:id="@+id/location_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/birthdate_user"
+                android:layout_marginTop="@dimen/margin_top_birthday"
+                android:background="@color/white"
+                android:drawableEnd="@drawable/arrow_down_gray"
+                android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                android:drawableStart="@drawable/location_gray"
+                android:gravity="center_vertical"
+                android:maxLines="@integer/max_lines_edit_profile"
+                android:paddingBottom="@dimen/padding_vertical_birthday"
+                android:paddingEnd="@dimen/padding_horizontal_birthday"
+                android:paddingStart="@dimen/padding_horizontal_birthday"
+                android:paddingTop="@dimen/padding_vertical_birthday"
+                android:text="@string/hint_location_edit_profile"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_medium_size" />
+
+            <!-- Phone number -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/location_user"
+                android:layout_marginTop="@dimen/margin_top_last_name_edit_profile">
+
+                <EditText
+                    android:id="@+id/phone_edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_name_edit_profile"
+                    android:layout_below="@+id/til_names"
+                    android:background="@drawable/hint_input_layout_edit_profile"
+                    android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                    android:drawableStart="@drawable/phone_gray"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_mobile_edit_profile"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:maxLength="@integer/max_digits_phone_edit_profile"
+                    android:maxLines="@integer/max_lines_edit_profile"
+                    android:paddingEnd="@dimen/padding_name_edit_profile"
+                    android:paddingStart="@dimen/padding_name_edit_profile"
+                    android:paddingTop="@dimen/padding_name_edit_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_medium_size" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Federated -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/til_phone"
+                android:layout_marginBottom="@dimen/margin_bottom_federated_edit_profile"
+                android:layout_marginTop="@dimen/margin_top_mail_edit_profile">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:drawablePadding="@dimen/drawable_padding_mail_edit_profile"
+                    android:gravity="center_vertical"
+                    android:maxLines="@integer/max_lines_edit_profile"
+                    android:paddingBottom="@dimen/padding_vertical_birthday"
+                    android:paddingEnd="@dimen/padding_horizontal_birthday"
+                    android:paddingStart="@dimen/padding_horizontal_birthday"
+                    android:paddingTop="@dimen/padding_vertical_birthday"
+                    android:text="@string/hint_federated_edit_profile"
+                    android:textColor="@color/iconsDisabled"
+                    android:textSize="@dimen/text_medium_size" />
+
+                <Switch
+                    android:id="@+id/switch_federated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="@dimen/margin_end_switch_federated_edit_profile" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

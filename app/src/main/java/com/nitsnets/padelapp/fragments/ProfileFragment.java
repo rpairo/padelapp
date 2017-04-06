@@ -1,14 +1,19 @@
 package com.nitsnets.padelapp.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.nitsnets.padelapp.R;
+import com.nitsnets.padelapp.activities.EditProfileActivity;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import butterknife.Unbinder;
 
 /**
@@ -19,6 +24,9 @@ public class ProfileFragment extends BaseFragment {
 
     //region Variables
     private Unbinder unbinder;
+
+    @BindView(R.id.edit_profile_button_profile)
+    public TextView textViewEditProfile;
     //endregion
 
     //region Lifecycle
@@ -40,6 +48,13 @@ public class ProfileFragment extends BaseFragment {
         super.onDestroyView();
 
         unbinder.unbind();
+    }
+    //endregion
+
+    //region Actions
+    @OnClick(R.id.edit_profile_button_profile)
+    public void callEditProfileActivity(View view) {
+        startActivity(new Intent(getActivity(), EditProfileActivity.class));
     }
     //endregion
 }

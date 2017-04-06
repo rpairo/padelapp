@@ -120,4 +120,30 @@
     <string name="description_image_profile">Image profile</string>
     <string name="title_configuration">Configuration</string>
 
+    <!-- Toolbar edit profile -->
+    <string name="image_back_arrow_description">Back arrow</string>
+    <string name="title_toolbar_edit_profile">Edit profile</string>
+
+    <!-- Set location -->
+    <string name="hint_autocomplete_set_location">Search a place</string>
+    <string name="positive_button_set_location">Accept</string>
+    <string name="negative_button_set_location">Cancel</string>
+
+    <!-- Edit profile -->
+    <string name="format_date_birthday">MM-dd-yyyy</string>
+    <string name="locale_format_date_birthday">uk</string>
+    <string name="tag_dialog_fragment_location">SET_LOCATION</string>
+    <string name="hint_name_edit_profile">Name</string>
+    <string name="hint_last_name_edit_profile">Last names</string>
+    <string name="title_photo_profile">Photo</string>
+    <string name="boy_gender_edit_profile">Boy</string>
+    <string name="girl_gender_edit_profile">Girl</string>
+    <string name="hint_mail_edit_profile">Email</string>
+    <string name="hint_password_edit_profile">Password</string>
+    <string name="label_optional_data_edit_profile">Optional data</string>
+    <string name="hint_birthday_edit_profile">Birthday</string>
+    <string name="hint_location_edit_profile">Location</string>
+    <string name="hint_mobile_edit_profile">Mobile</string>
+    <string name="hint_federated_edit_profile">Federated</string>
+
 </resources>

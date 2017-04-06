@@ -49,7 +49,7 @@
     <color name="backgroundButtonResults">@color/iconsEnabled</color>
 
     <!-- Header profile -->
-    <color name="backgroundHeaderName">@color/darkCyan</color>
+    <color name="backgroundHeaderName">@color/accent</color>
     <color name="userNameHeader">@color/white</color>
 
     <!-- Matches results profile -->
@@ -59,4 +59,6 @@
     <!-- Configuration profile -->
     <color name="backgroundButtonConfigurations">@color/white</color>
 
+    <!-- Transparent -->
+    <color name="black_transparent">#cd000000</color>
 </resources>

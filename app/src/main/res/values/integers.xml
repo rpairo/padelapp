@@ -17,4 +17,13 @@
     <!-- Toolbar -->
     <integer name="duration_elevation">1</integer>
 
+    <!-- Set location -->
+    <integer name="max_lines_autocomplete_set_location">1</integer>
+    <integer name="max_lines_buttons_set_location">1</integer>
+
+    <!-- Edit profile -->
+    <integer name="max_lines_edit_profile">1</integer>
+    <integer name="weight_gender_edit_profile">1</integer>
+    <integer name="max_digits_phone_edit_profile">9</integer>
+
 </resources>

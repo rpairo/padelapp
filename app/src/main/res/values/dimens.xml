@@ -6,6 +6,7 @@
     <dimen name="text_big_xl_size">22sp</dimen>
     <dimen name="text_big_size">20sp</dimen>
     <dimen name="text_medium_size">16sp</dimen>
+    <dimen name="text_small_xl_size">14sp</dimen>
     <dimen name="text_small_size">12sp</dimen>
 
     <!-- Elevations -->
@@ -131,5 +132,42 @@
     <dimen name="margin_bottom_button_configuration">10dp</dimen>
     <dimen name="paggind_vertical_button_configuration">12dp</dimen>
     <dimen name="paggind_start_button_configuration">20dp</dimen>
+
+    <!-- Set location -->
+    <dimen name="height_dialog_set_location">220dp</dimen>
+    <item name="alpha_dialog_set_location" format="float" type="dimen">0.3</item>
+    <dimen name="height_autocomplete_set_location">40dp</dimen>
+    <dimen name="margin_horizontal_autocomplete_set_location">17dp</dimen>
+    <dimen name="margin_top_autocomplete_set_location">30dp</dimen>
+    <dimen name="padding_start_autocomplete_set_location">10dp</dimen>
+    <dimen name="margin_end_negative_button_set_location">5dp</dimen>
+
+    <!-- Set location item -->
+    <dimen name="pading_item_list_location">15dp</dimen>
+    <dimen name="height_item_list_location">50dp</dimen>
+
+    <!-- Edit profile -->
+    <dimen name="padding_horizontal_edit_profile">17dp</dimen>
+    <dimen name="padding_top_edit_profile">20dp</dimen>
+    <dimen name="width_name_edit_profile">210dp</dimen>
+    <dimen name="height_name_edit_profile">60dp</dimen>
+    <dimen name="padding_name_edit_profile">10dp</dimen>
+    <dimen name="margin_top_last_name_edit_profile">10dp</dimen>
+    <dimen name="margin_end_photo_edit_profile">10dp</dimen>
+    <dimen name="drawable_padding_photo_edit_profile">5dp</dimen>
+    <dimen name="height_toogle_genders_edit_profile">50dp</dimen>
+    <dimen name="margin_top_toogle_genders_edit_profile">30dp</dimen>
+    <dimen name="drawable_padding_gender_edit_profile">20dp</dimen>
+    <dimen name="padding_start_gender_edit_profile">30dp</dimen>
+    <dimen name="margin_top_mail_edit_profile">15dp</dimen>
+    <dimen name="height_mail_edit_profile">60dp</dimen>
+    <dimen name="drawable_padding_mail_edit_profile">10dp</dimen>
+    <dimen name="padding_mail_edit_profile">10dp</dimen>
+    <dimen name="margin_top_optional_data">40dp</dimen>
+    <dimen name="margin_top_birthday">15dp</dimen>
+    <dimen name="padding_vertical_birthday">13dp</dimen>
+    <dimen name="padding_horizontal_birthday">10dp</dimen>
+    <dimen name="margin_bottom_federated_edit_profile">20dp</dimen>
+    <dimen name="margin_end_switch_federated_edit_profile">10dp</dimen>
 
 </resources>
