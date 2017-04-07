@@ -54,4 +54,12 @@
         <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
     </style>
 
+    <!-- Screen splash style -->
+    <style name="SplashTheme" parent="SplashThemeBase" />
+
+    <style name="SplashThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/screen_splash</item>
+    </style>
+
 </resources>

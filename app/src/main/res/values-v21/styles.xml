@@ -12,4 +12,9 @@
         <item name="android:backgroundTint">@color/white</item>
     </style>
 
+    <!-- Screen splash style -->
+    <style name="SplashTheme" parent="SplashThemeBase">
+        <item name="android:navigationBarColor">@color/accent</item>
+    </style>
+
 </resources>
