@@ -21,7 +21,7 @@ public class ScreenSplashActivity extends AppCompatActivity {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, TutorialActivity.class));
             finish();
         }
     }

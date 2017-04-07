@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_padel_two" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_transparent" />
+
+    <ImageView
+        android:id="@+id/logo_app_tutorial"
+        android:layout_width="@dimen/width_logo_app_tutorial"
+        android:layout_height="@dimen/height_logo_app_tutorial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_logo_app_tutorial"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/first_label_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_app_tutorial"
+        android:layout_centerHorizontal="true"
+        android:text="@string/first_label_tutorial_two"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_giant_xl_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="@dimen/width_second_label_app_tutorial"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_label_tutorial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_second_label_app_tutorial"
+        android:text="@string/second_label_tutorial_two"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_small_xl_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

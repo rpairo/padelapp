@@ -27,6 +27,7 @@
         <activity android:name=".activities.EditProfileActivity" />
         <activity android:name=".activities.PreferencesPlayingActivity" />
         <activity android:name=".activities.BlockedUsersActivity" />
+        <activity android:name=".activities.TutorialActivity" />
 
     </application>
 

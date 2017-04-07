@@ -2,6 +2,7 @@
 <resources>
 
     <!-- Text -->
+    <dimen name="text_giant_xl_size">35sp</dimen>
     <dimen name="text_giant_size">28sp</dimen>
     <dimen name="text_big_xl_size">22sp</dimen>
     <dimen name="text_big_size">20sp</dimen>
@@ -205,5 +206,12 @@
 
     <!-- Shadow blocked user -->
     <dimen name="shadow_blocked_user">2dp</dimen>
+
+    <!-- Tutorial -->
+    <dimen name="width_logo_app_tutorial">50dp</dimen>
+    <dimen name="height_logo_app_tutorial">60dp</dimen>
+    <dimen name="width_second_label_app_tutorial">320dp</dimen>
+    <dimen name="margin_top_logo_app_tutorial">305dp</dimen>
+    <dimen name="margin_top_second_label_app_tutorial">10dp</dimen>
 
 </resources>
