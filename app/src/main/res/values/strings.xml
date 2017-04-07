@@ -195,4 +195,19 @@
     <string name="first_label_tutorial_three">Compete and level up</string>
     <string name="second_label_tutorial_three">We are looking for opponents of your level.\nHave fun and level up!</string>
 
+    <!-- Toolbar edit notifications -->
+    <string name="title_toolbar_edit_notifications">Notifications</string>
+    <string name="label_edit_notifications">Configure which notifications you want to receive in the application to be always informed (notifications will arrive the same as the application, although you will not be notified via push)</string>
+
+    <!-- Notifications -->
+    <string name="check_one_edit_notifications">New result of your match</string>
+    <string name="check_two_edit_notifications">Reminder to point result</string>
+    <string name="check_three_edit_notifications">Level rise</string>
+    <string name="check_four_edit_notifications">New matches according to your preferences</string>
+    <string name="check_five_edit_notifications">Invitation to matches</string>
+    <string name="check_six_edit_notifications">New comment from a player in a match in which you participate</string>
+    <string name="check_seven_edit_notifications">Your match has been completed by players</string>
+    <string name="check_eight_edit_notifications">In your match you have added one more player</string>
+    <string name="check_nine_edit_notifications">A player has abandoned in your match</string>
+
 </resources>

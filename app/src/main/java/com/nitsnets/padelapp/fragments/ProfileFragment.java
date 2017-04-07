@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.activities.BlockedUsersActivity;
+import com.nitsnets.padelapp.activities.EditNotificationsActivity;
 import com.nitsnets.padelapp.activities.EditProfileActivity;
 import com.nitsnets.padelapp.activities.PreferencesPlayingActivity;
 
@@ -67,6 +68,11 @@ public class ProfileFragment extends BaseFragment {
     @OnClick(R.id.block_user_button_profile)
     public void callBlockedUsersActivity(View view) {
         startActivity(new Intent(getActivity(), BlockedUsersActivity.class));
+    }
+
+    @OnClick(R.id.notifications_button_profile)
+    public void callEditNotificationsActivity(View view) {
+        startActivity(new Intent(getActivity(), EditNotificationsActivity.class));
     }
     //endregion
 }

@@ -213,5 +213,7 @@
     <dimen name="width_second_label_app_tutorial">320dp</dimen>
     <dimen name="margin_top_logo_app_tutorial">305dp</dimen>
     <dimen name="margin_top_second_label_app_tutorial">10dp</dimen>
+    <dimen name="padding_edit_tutorial">17dp</dimen>
+    <dimen name="margin_top_edit_tutorial">20dp</dimen>
 
 </resources>

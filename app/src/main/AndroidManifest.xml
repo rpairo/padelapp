@@ -28,7 +28,7 @@
         <activity android:name=".activities.PreferencesPlayingActivity" />
         <activity android:name=".activities.BlockedUsersActivity" />
         <activity android:name=".activities.TutorialActivity" />
+        <activity android:name=".activities.EditNotificationsActivity" />
 
     </application>
-
 </manifest>
