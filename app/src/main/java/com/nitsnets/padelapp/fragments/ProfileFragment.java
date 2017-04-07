@@ -59,7 +59,7 @@ public class ProfileFragment extends BaseFragment {
         startActivity(new Intent(getActivity(), EditProfileActivity.class));
     }
 
-    @OnClick(R.id.preferences_for_playing_button_profile)
+    @OnClick({R.id.preferences_for_playing_button_profile, R.id.edit_availability_user_profile})
     public void callPreferencesPlayingActivity(View view) {
         startActivity(new Intent(getActivity(), PreferencesPlayingActivity.class));
     }
