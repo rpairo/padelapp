@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_horizontal_preferences_playing">
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_nine"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_nine"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sixteen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_sixteen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_ten"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_ten"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+        <CheckBox
+            android:id="@+id/checkbox_seventeen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_seventeen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_eleven"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_eleven"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_eighteen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_eighteen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_twelve"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_twelve"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+        <CheckBox
+            android:id="@+id/checkbox_nineteen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_nineteen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_thirteen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_thirteen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+        <CheckBox
+            android:id="@+id/checkbox_twenty"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_twenty"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_fourteen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_fourteen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+        <CheckBox
+            android:id="@+id/checkbox_twenty_one"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_twenty_one"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_fifteen"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_fifteen"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_twenty_two"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_checkbox_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@color/white"
+            android:buttonTint="@color/checkbox_schedule"
+            android:paddingBottom="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:paddingStart="@dimen/padding_start_checkbox_preferences_playing"
+            android:paddingTop="@dimen/padding_vertical_checkbox_preferences_playing"
+            android:text="@string/check_twenty_two"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_medium_size" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/repeat_work"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_repeat_buttons_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@drawable/border_view"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:gravity="center"
+            android:padding="@dimen/padding_button_select_preferences_playing"
+            android:text="@string/button_repeat_work" />
+
+        <TextView
+            android:id="@+id/repeat_all_week"
+            android:layout_width="@dimen/width_checkbox_time_preferences_playing"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_checkbox_preferences_playing"
+            android:layout_marginTop="@dimen/margin_top_repeat_buttons_preferences_playing"
+            android:layout_weight="@integer/weight_checkbox_preferences"
+            android:background="@drawable/border_view"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:gravity="center"
+            android:padding="@dimen/padding_button_select_preferences_playing"
+            android:text="@string/button_repeat_all_week" />
+    </TableRow>
+</TableLayout>

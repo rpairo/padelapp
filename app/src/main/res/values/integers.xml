@@ -26,4 +26,7 @@
     <integer name="weight_gender_edit_profile">1</integer>
     <integer name="max_digits_phone_edit_profile">9</integer>
 
+    <!-- Preferences matches -->
+    <integer name="weight_checkbox_preferences">1</integer>
+
 </resources>
