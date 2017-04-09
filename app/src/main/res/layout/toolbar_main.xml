@@ -40,6 +40,7 @@
 
                 <!-- Title app -->
                 <TextView
+                    android:id="@+id/title_toolbar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/first_title_toolbar_main"

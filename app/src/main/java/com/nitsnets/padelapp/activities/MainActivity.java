@@ -27,9 +27,6 @@ import butterknife.BindView;
 public class MainActivity extends BaseActivity {
 
     //region Variables
-    @BindView(R.id.toolbar_main)
-    Toolbar toolbar;
-
     @BindView(R.id.bottom_navigation_main)
     BottomNavigationView bottomNavigationView;
 
@@ -37,19 +34,10 @@ public class MainActivity extends BaseActivity {
     private FragmentManager fragmentManager;
     //endregion
 
-    //region Base functions
-    @Override
-    public int getLayoutId() {
-        return R.layout.activity_main;
-    }
-    //endregion
-
     //region Lifecycle
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        configureToolbar();
 
         configureFragments();
 
@@ -57,9 +45,15 @@ public class MainActivity extends BaseActivity {
     }
     //endregion
 
-    //region Toolbar
-    private void configureToolbar() {
-        if (toolbar != null) setSupportActionBar(toolbar);
+    //region Base functions
+    @Override
+    public int getLayoutId() {
+        return R.layout.activity_main;
+    }
+
+    @Override
+    public int getTitleId() {
+        return R.string.first_title_toolbar_main;
     }
     //endregion
 

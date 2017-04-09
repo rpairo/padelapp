@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.adapters.BlockedRecyclerAdapter;
@@ -45,6 +47,11 @@ public class BlockedUsersActivity extends BaseActivity {
     @Override
     public int getLayoutId() {
         return R.layout.activity_blocked_users;
+    }
+
+    @Override
+    public int getTitleId() {
+        return R.string.toolbar_title_blocked_players;
     }
     //endregion
 

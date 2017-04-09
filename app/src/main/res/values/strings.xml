@@ -14,6 +14,9 @@
     <string name="image_search_description">Search</string>
     <string name="image_notifications_description">Notifications</string>
 
+    <!-- Toolbar back -->
+    <string name="title_toolbar_back_generic">Title activity</string>
+
     <!-- Bottom navigation -->
     <string name="title_matches">Matches</string>
     <string name="title_now">Now</string>
@@ -185,6 +188,7 @@
     <string name="label_blocked_players">Blocked players</string>
     <string name="block_button_blocked_players">+ Block</string>
     <string name="unlock_player_blocked_players">Unlock</string>
+    <string name="toolbar_title_blocked_players">Blocked players</string>
 
     <!-- Tutorial -->
     <string name="button_done_tutorial">Start</string>

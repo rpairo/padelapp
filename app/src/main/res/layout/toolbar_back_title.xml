@@ -31,10 +31,11 @@
 
             <!-- Title toolbar -->
             <TextView
+                android:id="@+id/title_toolbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="@string/title_toolbar_edit_notifications"
+                android:text="@string/title_toolbar_back_generic"
                 android:textSize="@dimen/text_big_size" />
 
         </RelativeLayout>

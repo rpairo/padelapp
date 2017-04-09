@@ -8,7 +8,7 @@
     <!-- Toolbar -->
     <include
         android:id="@+id/appbar_main"
-        layout="@layout/toolbar_preferences_for_playing" />
+        layout="@layout/toolbar_back_title" />
 
     <ScrollView
         android:id="@+id/scrollView_preferences"

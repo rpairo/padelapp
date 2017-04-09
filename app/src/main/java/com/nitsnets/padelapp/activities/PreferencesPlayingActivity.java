@@ -1,5 +1,8 @@
 package com.nitsnets.padelapp.activities;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
@@ -25,6 +28,11 @@ public class PreferencesPlayingActivity extends BaseActivity {
     @Override
     public int getLayoutId() {
         return R.layout.activity_preferences_for_playing;
+    }
+
+    @Override
+    public int getTitleId() {
+        return R.string.title_toolbar_preferences_for_playing;
     }
     //endregion
 

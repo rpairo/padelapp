@@ -26,9 +26,6 @@ import butterknife.OnClick;
 public class EditProfileActivity extends BaseActivity {
 
     //region Variables
-    @BindView(R.id.toolbar_main)
-    Toolbar toolbar;
-
     @BindView(R.id.birthdate_user)
     public TextView textViewBirthday;
 
@@ -43,20 +40,10 @@ public class EditProfileActivity extends BaseActivity {
     public int getLayoutId() {
         return R.layout.activity_edit_profile;
     }
-    //endregion
 
-    //region Lifecycle
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        configureToolbar();
-    }
-    //endregion
-
-    //region Toolbar
-    private void configureToolbar() {
-        if (toolbar != null) setSupportActionBar(toolbar);
+    public int getTitleId() {
+        return R.string.title_toolbar_edit_profile;
     }
     //endregion
 

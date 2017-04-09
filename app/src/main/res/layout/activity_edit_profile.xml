@@ -8,7 +8,7 @@
     <!-- Toolbar -->
     <include
         android:id="@+id/appbar_main"
-        layout="@layout/toolbar_edit_profile" />
+        layout="@layout/toolbar_back_title" />
 
     <ScrollView
         android:layout_width="match_parent"
