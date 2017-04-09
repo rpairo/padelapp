@@ -29,6 +29,7 @@
         <activity android:name=".activities.BlockedUsersActivity" />
         <activity android:name=".activities.TutorialActivity" />
         <activity android:name=".activities.EditNotificationsActivity" />
+        <activity android:name=".activities.NotificationsActivity" />
 
     </application>
 </manifest>

@@ -1,5 +1,6 @@
 package com.nitsnets.padelapp.activities;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -8,6 +9,8 @@ import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.fragments.BaseFragment;
@@ -19,6 +22,7 @@ import com.nitsnets.padelapp.fragments.RankingFragment;
 import com.nitsnets.padelapp.utils.BottomNavigationViewHelper;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * Created by raul on 26/3/17.
@@ -106,6 +110,13 @@ public class MainActivity extends BaseActivity {
         };
 
         return onNavigationItemSelectedListener;
+    }
+    //endregion
+
+    //region Actions
+    @OnClick(R.id.icon_notifications)
+    public void callNotifications(View view) {
+        startActivity(new Intent(this, NotificationsActivity.class));
     }
     //endregion
 }

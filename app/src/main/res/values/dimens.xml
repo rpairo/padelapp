@@ -216,4 +216,9 @@
     <dimen name="padding_edit_tutorial">17dp</dimen>
     <dimen name="margin_top_edit_tutorial">20dp</dimen>
 
+    <!-- Notifications -->
+    <dimen name="margin_start_information_notification">20dp</dimen>
+    <dimen name="padding_information_notification">17dp</dimen>
+    <dimen name="margin_top_information_notification">5dp</dimen>
+
 </resources>
