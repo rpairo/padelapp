@@ -182,7 +182,7 @@
     <dimen name="margin_top_customize_schedule_label_preferences_playing">10dp</dimen>
     <dimen name="margin_top_tab_layout_preferences_playing">20dp</dimen>
     <dimen name="width_checkbox_time_preferences_playing">160dp</dimen>
-    <dimen name="padding_vertical_checkbox_preferences_playing">15dp</dimen>
+    <dimen name="padding_vertical_checkbox_preferences_playing">17dp</dimen>
     <dimen name="padding_start_checkbox_preferences_playing">10dp</dimen>
     <dimen name="margin_top_checkbox_preferences_playing">10dp</dimen>
     <dimen name="margin_left_checkbox_preferences_playing">10dp</dimen>
