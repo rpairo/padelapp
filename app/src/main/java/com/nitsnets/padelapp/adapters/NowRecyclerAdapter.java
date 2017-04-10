@@ -54,7 +54,7 @@ public class NowRecyclerAdapter extends RecyclerView.Adapter<NowViewHolder> {
         if (holder.countDownTimer != null)
             holder.countDownTimer.cancel();
 
-        holder.countDownTimer = new CountDownTimer(calculateTimeToStart(matches.get(position).getTimeStart()), Time.REFRESH_COUNTDOWN) {
+        holder.countDownTimer = new CountDownTimer(calculateTimeToStart(matches.get(position).getDate()), Time.REFRESH_COUNTDOWN) {
 
             public void onTick(long millisUntilFinished) {
                 setMilliseconds(position, holder);
@@ -72,7 +72,7 @@ public class NowRecyclerAdapter extends RecyclerView.Adapter<NowViewHolder> {
     }
 
     private void setMilliseconds(final int position, final NowViewHolder holder) {
-        holder.timer.setText(Time.convertMilliToTime(calculateTimeToStart(matches.get(position).getTimeStart())));
+        holder.timer.setText(Time.convertMilliToTime(calculateTimeToStart(matches.get(position).getDate())));
     }
     //endregion
 
