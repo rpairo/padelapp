@@ -5,4 +5,24 @@ package com.nitsnets.padelapp.models;
  */
 
 public class Match {
+
+    //region Variables
+    private String timeStart;
+    //endregion
+
+    //region Constructors
+    public Match() {
+        this.timeStart = null;
+    }
+
+    public Match(String timeStart) {
+        this.timeStart = timeStart;
+    }
+    //endregion
+
+    //region Getter and setters
+    public String getTimeStart() {
+        return timeStart;
+    }
+    //endregion
 }

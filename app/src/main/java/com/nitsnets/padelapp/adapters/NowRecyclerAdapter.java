@@ -1,5 +1,6 @@
 package com.nitsnets.padelapp.adapters;
 
+import android.os.CountDownTimer;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.nitsnets.padelapp.R;
 import com.nitsnets.padelapp.models.Match;
+import com.nitsnets.padelapp.utils.Time;
 import com.nitsnets.padelapp.viewholders.NowViewHolder;
 
 import java.util.List;
@@ -35,8 +37,9 @@ public class NowRecyclerAdapter extends RecyclerView.Adapter<NowViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(NowViewHolder holder, int position) {
+    public void onBindViewHolder(final NowViewHolder holder, final int position) {
 
+        setCoundDown(holder, position);
     }
 
     @Override
@@ -47,6 +50,34 @@ public class NowRecyclerAdapter extends RecyclerView.Adapter<NowViewHolder> {
     @Override
     public int getItemCount() {
         return this.matches.size();
+    }
+    //endregion
+
+    //region Countdown
+    private void setCoundDown(final NowViewHolder holder, final int position) {
+
+        if (holder.countDownTimer != null)
+            holder.countDownTimer.cancel();
+
+        holder.countDownTimer = new CountDownTimer(calculateTimeToStart(matches.get(position).getTimeStart()), Time.REFRESH_COUNTDOWN) {
+
+            public void onTick(long millisUntilFinished) {
+                setMilliseconds(position, holder);
+            }
+
+            public void onFinish() {
+                setMilliseconds(position, holder);
+            }
+
+        }.start();
+    }
+
+    private long calculateTimeToStart(String timeStart) {
+        return Long.parseLong(timeStart) - System.currentTimeMillis();
+    }
+
+    private void setMilliseconds(final int position, final NowViewHolder holder) {
+        holder.timer.setText(Time.convertMilliToTime(calculateTimeToStart(matches.get(position).getTimeStart())));
     }
     //endregion
 
