@@ -40,11 +40,6 @@ public class RankingRecyclerAdapter extends RecyclerView.Adapter<RankingPlayerVi
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
-
-    @Override
     public int getItemCount() {
         return this.players.size();
     }

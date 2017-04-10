@@ -60,11 +60,6 @@ public class MyMatchesRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
-
-    @Override
     public int getItemViewType(int position) {
 
         if (matches.get(position) instanceof Match)

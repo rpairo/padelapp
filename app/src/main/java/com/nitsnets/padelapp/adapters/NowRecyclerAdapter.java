@@ -43,11 +43,6 @@ public class NowRecyclerAdapter extends RecyclerView.Adapter<NowViewHolder> {
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
-
-    @Override
     public int getItemCount() {
         return this.matches.size();
     }

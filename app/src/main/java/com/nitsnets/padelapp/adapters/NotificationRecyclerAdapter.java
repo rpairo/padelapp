@@ -40,11 +40,6 @@ public class NotificationRecyclerAdapter extends RecyclerView.Adapter<Notificati
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
-
-    @Override
     public int getItemCount() {
         return this.notifications.size();
     }

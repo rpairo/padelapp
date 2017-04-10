@@ -49,11 +49,6 @@ public class MatchesRecyclerAdapter extends RecyclerView.Adapter<MatchesViewHold
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
-        super.onAttachedToRecyclerView(recyclerView);
-    }
-
-    @Override
     public int getItemCount() {
         return this.matches.size();
     }
