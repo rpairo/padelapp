@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_backdrop_match_details"
+    android:backgroundTint="@color/accent"
+    android:fitsSystemWindows="true"
+    android:stateListAnimator="@animator/appbar_elevation">
+
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:contentScrim="?attr/colorAccent"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_backdrop_match_details"
+            android:alpha="@dimen/alpha_dialog_set_location"
+            android:background="@color/black_transparent">
+
+            <ImageView
+                android:id="@+id/backdrop_ficha_partido"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_backdrop_match_details"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+
+        </FrameLayout>
+
+        <!-- Toolbar -->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingLeft="@dimen/padding_horizontal_toolbar"
+            android:paddingRight="@dimen/padding_horizontal_toolbar"
+            app:layout_collapseMode="pin">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Back button -->
+                <ImageButton
+                    android:id="@+id/icon_back_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/image_back_arrow_description"
+                    android:src="@drawable/ic_arrow_left_black_24dp"
+                    android:tint="@color/white" />
+
+                <!-- Title app -->
+                <TextView
+                    android:id="@+id/title_toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toEndOf="@+id/icon_back_arrow"
+                    android:layout_toStartOf="@+id/icon_share"
+                    android:gravity="center"
+                    android:text="@string/first_title_toolbar_main"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_big_size" />
+
+                <!-- Notifications button -->
+                <ImageButton
+                    android:id="@+id/icon_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/share_description"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:tint="@color/white" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.CollapsingToolbarLayout>
+</android.support.design.widget.AppBarLayout>

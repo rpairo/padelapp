@@ -1,11 +1,13 @@
 package com.nitsnets.padelapp.adapters;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.nitsnets.padelapp.R;
+import com.nitsnets.padelapp.activities.MatchDetailsActivity;
 import com.nitsnets.padelapp.models.Match;
 import com.nitsnets.padelapp.viewholders.MatchesViewHolder;
 
@@ -36,7 +38,14 @@ public class MatchesRecyclerAdapter extends RecyclerView.Adapter<MatchesViewHold
 
     @Override
     public void onBindViewHolder(MatchesViewHolder holder, int position) {
-        
+
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                v.getContext().startActivity(new Intent(v.getContext(), MatchDetailsActivity.class));
+            }
+        });
     }
 
     @Override

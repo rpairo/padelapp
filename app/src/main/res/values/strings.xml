@@ -217,4 +217,30 @@
     <!-- Notifications -->
     <string name="information_notification">Information notification</string>
 
+    <!-- Match details -->
+    <string name="share_description">Share</string>
+    <string name="title_match_details">Match</string>
+
+    <!-- Level up -->
+    <string name="wins_to_level_up">Win 3 games and go up to level 4</string>
+    <string name="points_to_level_up">You are missing 30 points to reach 4.000 points</string>
+
+    <!-- Place match -->
+    <string name="title_place_match">Place</string>
+    <string name="name_club_place_match">Club Atlético Montemar</string>
+    <string name="location_club_place_match">Av. Locutor Vicente Hipólito, s/n,</string>
+    <string name="postal_code_club_place_match">03540 Alicante</string>
+    <string name="schedule_club_place_match">Monday to Friday 06:45h to 23:15</string>
+
+    <!-- Player match details -->
+    <string name="player_level_match">level 4</string>
+
+    <!-- Rewards match details -->
+    <string name="title_rewards_match">Score</string>
+    <string name="reward_won_match">+10</string>
+    <string name="reward_lost_match">-10</string>
+    <string name="goal_win_for_reward_match">for winning</string>
+    <string name="goal_lost_for_reward_match">for losing</string>
+    <string name="see_more_rating_system_reward_match">See more about the rating system</string>
+
 </resources>

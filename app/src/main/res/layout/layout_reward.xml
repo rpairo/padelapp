@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingStart="@dimen/padding_start_title_rewards_match"
+        android:text="@string/title_rewards_match"
+        android:textColor="@color/iconsEnabled"
+        android:textSize="@dimen/text_big_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/faces_rewards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_score"
+        android:layout_marginTop="@dimen/margin_top_faces_rewards"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/weight_faces_rewards_match_details"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/satisfied_face_profile"
+                android:layout_width="@dimen/size_face_rewards_match"
+                android:layout_height="@dimen/size_face_rewards_match"
+                android:contentDescription="@string/description_happy_face_profile"
+                android:src="@drawable/ic_satisfied_black_24dp"
+                android:tint="@color/wonMatches" />
+
+            <TextView
+                android:id="@+id/reward_won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/satisfied_face_profile"
+                android:layout_marginStart="@dimen/margin_start_reward"
+                android:layout_toEndOf="@+id/satisfied_face_profile"
+                android:text="@string/reward_won_match"
+                android:textColor="@color/wonMatches"
+                android:textSize="@dimen/text_giant_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_won_user_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/reward_won"
+                android:layout_below="@+id/reward_won"
+                android:gravity="center_vertical|start"
+                android:text="@string/goal_win_for_reward_match"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_small_size" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/weight_faces_rewards_match_details"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/dissatisfied_face_profile"
+                android:layout_width="@dimen/size_face_rewards_match"
+                android:layout_height="@dimen/size_face_rewards_match"
+                android:contentDescription="@string/description_happy_face_profile"
+                android:src="@drawable/ic_dissatisfied_black_24dp"
+                android:tint="@color/lostMatches" />
+
+            <TextView
+                android:id="@+id/reward_lost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dissatisfied_face_profile"
+                android:layout_marginStart="@dimen/margin_start_reward"
+                android:layout_toEndOf="@+id/dissatisfied_face_profile"
+                android:text="@string/reward_lost_match"
+                android:textColor="@color/lostMatches"
+                android:textSize="@dimen/text_giant_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_lost_user_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/reward_lost"
+                android:layout_below="@+id/reward_lost"
+                android:gravity="center_vertical|start"
+                android:text="@string/goal_lost_for_reward_match"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_small_size" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/about_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faces_rewards"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_see_more_about"
+        android:clickable="true"
+        android:drawablePadding="@dimen/drawable_paggin_see_more_about"
+        android:drawableStart="@drawable/alert_accent"
+        android:gravity="center"
+        android:text="@string/see_more_rating_system_reward_match"
+        android:textColor="@color/accent"
+        android:textSize="@dimen/text_small_size" />
+
+</RelativeLayout>

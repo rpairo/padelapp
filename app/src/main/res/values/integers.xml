@@ -29,4 +29,7 @@
     <!-- Preferences matches -->
     <integer name="weight_checkbox_preferences">1</integer>
 
+    <!-- Rewards match details -->
+    <integer name="weight_faces_rewards_match_details">1</integer>
+
 </resources>

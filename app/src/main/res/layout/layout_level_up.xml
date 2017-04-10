@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBackground"
+    android:paddingBottom="@dimen/padding_vertical_level_up"
+    android:paddingEnd="@dimen/padding_end_level_up"
+    android:paddingStart="@dimen/padding_start_level_up"
+    android:paddingTop="@dimen/padding_vertical_level_up">
+
+    <!-- Image club -->
+    <ImageView
+        android:id="@+id/image_arrow_level_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/arrow_green" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_start_text_level_up"
+        android:layout_toEndOf="@+id/image_arrow_level_up"
+        android:orientation="vertical">
+
+        <!-- Wins to level up -->
+        <TextView
+            android:id="@+id/wins_to_level_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wins_to_level_up"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_small_size" />
+
+        <!-- Points to level up -->
+        <TextView
+            android:id="@+id/points_to_level_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/points_to_level_up"
+            android:textColor="@color/iconsEnabled"
+            android:textSize="@dimen/text_small_size" />
+
+    </LinearLayout>
+</RelativeLayout>

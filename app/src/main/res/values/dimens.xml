@@ -221,4 +221,44 @@
     <dimen name="padding_information_notification">17dp</dimen>
     <dimen name="margin_top_information_notification">5dp</dimen>
 
+    <!-- Match details -->
+    <dimen name="height_backdrop_match_details">170dp</dimen>
+    <dimen name="date_time_margin_bottom">20dp</dimen>
+    <dimen name="padding_versus_match_details">17dp</dimen>
+    <dimen name="padding_start_versus_match_details">35dp</dimen>
+    <dimen name="margin_top_first_separator_match_details">30dp</dimen>
+    <dimen name="margin_top_location_match_details">30dp</dimen>
+    <dimen name="margin_start_location_match_details">10dp</dimen>
+    <dimen name="margin_top_second_separator_match_details">40dp</dimen>
+    <dimen name="margin_top_rewards_match_details">30dp</dimen>
+    <dimen name="margin_bottom_level_up_match_details">75dp</dimen>
+    <dimen name="margin_top_level_up_match_details">20dp</dimen>
+    <dimen name="padding_horizontal_price_bar_match_details">17dp</dimen>
+    <dimen name="elevation_price_bar_match_details">5dp</dimen>
+
+    <!-- Level up -->
+    <dimen name="padding_vertical_level_up">17dp</dimen>
+    <dimen name="padding_end_level_up">17dp</dimen>
+    <dimen name="padding_start_level_up">25dp</dimen>
+    <dimen name="margin_start_text_level_up">15dp</dimen>
+
+    <!-- Place match -->
+    <dimen name="width_image_club_place_match">45dp</dimen>
+    <dimen name="height_image_club_place_match">50dp</dimen>
+    <dimen name="margin_top_image_club_place_match">20dp</dimen>
+    <dimen name="margin_start_name_club_place_match">15dp</dimen>
+    <dimen name="margin_top_image_racket_place_match">25dp</dimen>
+    <dimen name="margin_start_price_match_place_match">10dp</dimen>
+
+    <!-- Player match details -->
+    <dimen name="padding_vertical_player_match_details">5dp</dimen>
+
+    <!-- Rewards match details -->
+    <dimen name="padding_start_title_rewards_match">10dp</dimen>
+    <dimen name="margin_top_faces_rewards">25dp</dimen>
+    <dimen name="size_face_rewards_match">50dp</dimen>
+    <dimen name="margin_start_reward">10dp</dimen>
+    <dimen name="margin_top_see_more_about">60dp</dimen>
+    <dimen name="drawable_paggin_see_more_about">5dp</dimen>
+
 </resources>
