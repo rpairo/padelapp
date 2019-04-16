@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/shadow_blocked" />
+        </shape>
+    </item>
+
+    <item android:bottom="@dimen/shadow_blocked_user">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/darkBackground" />
+        </shape>
+    </item>
+</layer-list>

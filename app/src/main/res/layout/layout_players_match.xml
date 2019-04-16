@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/padding_horizontal_players_match"
+    android:paddingStart="@dimen/padding_horizontal_players_match">
+
+    <!-- Player one -->
+    <ImageView
+        android:id="@+id/profile_player_match_one"
+        android:layout_width="@dimen/image_size_profile_match"
+        android:layout_height="@dimen/image_size_profile_match"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/margin_horizontal_profiles_match"
+        android:contentDescription="@string/image_player_description"
+        android:src="@drawable/ic_profile_empty" />
+
+    <!-- Player two -->
+    <ImageView
+        android:id="@+id/profile_player_match_two"
+        android:layout_width="@dimen/image_size_profile_match"
+        android:layout_height="@dimen/image_size_profile_match"
+        android:layout_toEndOf="@+id/profile_player_match_one"
+        android:contentDescription="@string/image_player_description"
+        android:src="@drawable/ic_profile_empty" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/profile_player_match_two"
+        android:layout_toStartOf="@+id/profile_player_match_three"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/versus_teams"
+            android:textSize="@dimen/text_medium_size"
+            android:textStyle="bold" />
+
+        <!-- Missing players -->
+        <TextView
+            android:id="@+id/amount_players_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_players_match"
+            android:textSize="@dimen/text_small_size" />
+
+    </LinearLayout>
+
+    <!-- Player three -->
+    <ImageView
+        android:id="@+id/profile_player_match_three"
+        android:layout_width="@dimen/image_size_profile_match"
+        android:layout_height="@dimen/image_size_profile_match"
+        android:layout_marginEnd="@dimen/margin_horizontal_profiles_match"
+        android:layout_toStartOf="@+id/profile_player_match_four"
+        android:contentDescription="@string/image_player_description"
+        android:src="@drawable/ic_profile_empty" />
+
+    <!-- Player four -->
+    <ImageView
+        android:id="@+id/profile_player_match_four"
+        android:layout_width="@dimen/image_size_profile_match"
+        android:layout_height="@dimen/image_size_profile_match"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/image_player_description"
+        android:src="@drawable/ic_profile_empty" />
+
+</RelativeLayout>

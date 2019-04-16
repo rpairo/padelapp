@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/location_user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:maxLines="@integer/max_lines_location_user"
+        android:paddingStart="@dimen/padding_start_location_user"
+        android:paddingTop="@dimen/padding_top_location_user"
+        android:text="@string/location_user_profile"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_medium_size" />
+
+    <TextView
+        android:id="@+id/user_points_profile"
+        android:layout_width="@dimen/width_points_user"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/location_user_profile"
+        android:layout_marginEnd="@dimen/margin_end_points_user"
+        android:layout_marginTop="@dimen/margin_top_points_user"
+        android:gravity="start"
+        android:maxLines="@integer/max_lines_points_user"
+        android:text="@string/points_user_profile"
+        android:textColor="@color/iconsEnabled"
+        android:textSize="@dimen/text_giant_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="@dimen/width_points_user"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/user_points_profile"
+        android:layout_marginEnd="@dimen/margin_end_points_user"
+        android:gravity="start"
+        android:maxLines="@integer/max_lines_points_user"
+        android:text="@string/label_points_user_profile"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_big_size" />
+
+    <TextView
+        android:id="@+id/level_user_profile"
+        android:layout_width="@dimen/width_points_user"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_user_profile"
+        android:layout_marginTop="@dimen/margin_top_points_user"
+        android:layout_toStartOf="@+id/user_points_profile"
+        android:gravity="start"
+        android:maxLines="@integer/max_lines_level_user"
+        android:text="@string/level_user_profile"
+        android:textSize="@dimen/text_giant_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label_level_profile"
+        android:layout_width="@dimen/width_points_user"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/level_user_profile"
+        android:layout_toStartOf="@+id/user_points_profile"
+        android:gravity="start"
+        android:maxLines="@integer/max_lines_level_user"
+        android:text="@string/label_level_user_profile"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_big_size" />
+
+    <ImageView
+        android:id="@+id/shield_profile"
+        android:layout_width="@dimen/width_shield_profile"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_level_profile"
+        android:layout_alignTop="@+id/level_user_profile"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_end_shield_profile"
+        android:layout_toStartOf="@+id/level_user_profile"
+        android:src="@drawable/ic_shield_black_24dp"
+        android:tint="@color/iconsEnabled" />
+
+    <include
+        android:id="@+id/first_separator_profile"
+        layout="@layout/layout_separator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shield_profile"
+        android:layout_marginEnd="@dimen/margin_horizontal_separator_profile"
+        android:layout_marginStart="@dimen/margin_horizontal_separator_profile"
+        android:layout_marginTop="@dimen/margin_top_first_separator_profile" />
+
+    <LinearLayout
+        android:id="@+id/faces_rewards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_separator_profile"
+        android:layout_marginTop="@dimen/margin_top_faces_rewards"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/weight_faces_rewards_match_details"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/satisfied_face_profile"
+                android:layout_width="@dimen/size_face_rewards_match"
+                android:layout_height="@dimen/size_face_rewards_match"
+                android:contentDescription="@string/description_happy_face_profile"
+                android:src="@drawable/ic_satisfied_black_24dp"
+                android:tint="@color/wonMatches" />
+
+            <TextView
+                android:id="@+id/reward_won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/satisfied_face_profile"
+                android:layout_marginStart="@dimen/margin_start_reward"
+                android:layout_toEndOf="@+id/satisfied_face_profile"
+                android:text="@string/matches_won_profile"
+                android:textColor="@color/wonMatches"
+                android:textSize="@dimen/text_giant_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_won_user_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/reward_won"
+                android:layout_below="@+id/reward_won"
+                android:gravity="center_vertical|start"
+                android:text="@string/label_matches_won_profile"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_small_size" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/weight_faces_rewards_match_details"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/dissatisfied_face_profile"
+                android:layout_width="@dimen/size_face_rewards_match"
+                android:layout_height="@dimen/size_face_rewards_match"
+                android:contentDescription="@string/description_happy_face_profile"
+                android:src="@drawable/ic_dissatisfied_black_24dp"
+                android:tint="@color/lostMatches" />
+
+            <TextView
+                android:id="@+id/reward_lost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dissatisfied_face_profile"
+                android:layout_marginStart="@dimen/margin_start_reward"
+                android:layout_toEndOf="@+id/dissatisfied_face_profile"
+                android:text="@string/matches_lost_profile"
+                android:textColor="@color/lostMatches"
+                android:textSize="@dimen/text_giant_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label_lost_user_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/reward_lost"
+                android:layout_below="@+id/reward_lost"
+                android:gravity="center_vertical|start"
+                android:text="@string/label_matches_lost_profile"
+                android:textColor="@color/iconsDisabled"
+                android:textSize="@dimen/text_small_size" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/matches_played_user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faces_rewards"
+        android:layout_marginTop="@dimen/margin_top_matches_played"
+        android:gravity="center"
+        android:text="@string/matches_played_profile"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_medium_size" />
+
+</RelativeLayout>

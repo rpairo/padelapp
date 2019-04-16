@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/padding_bottom_price_bar">
+
+    <!-- Logo club -->
+    <ImageView
+        android:id="@+id/image_club_bar_match"
+        android:layout_width="@dimen/width_image_club_price_bar"
+        android:layout_height="@dimen/height_image_club_price_bar"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/image_club_description"
+        android:src="@drawable/ic_club_empty" />
+
+    <!-- Details match -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_left_details_price_bar"
+        android:layout_toEndOf="@+id/image_club_bar_match"
+        android:layout_toStartOf="@+id/button_signup_bar_match">
+
+        <!-- Price match -->
+        <TextView
+            android:id="@+id/price_bar_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_match"
+            android:textSize="@dimen/text_small_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_left_text_price_bar"
+            android:layout_toEndOf="@+id/price_bar_match"
+            android:text="@string/phrase_person_price_bar"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@+id/prefix_club_bar_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_bar_match"
+            android:text="@string/prefix_club_bar"
+            android:textSize="@dimen/text_small_size" />
+
+        <!-- Club match -->
+        <TextView
+            android:id="@+id/name_club_bar_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_bar_match"
+            android:layout_marginStart="@dimen/margin_left_text_price_bar"
+            android:layout_toEndOf="@+id/prefix_club_bar_match"
+            android:text="@string/name_club_bar"
+            android:textSize="@dimen/text_small_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!-- Sign up button -->
+    <Button
+        android:id="@+id/button_signup_bar_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/backgroundButtonMyMatches"
+        android:drawablePadding="@dimen/drawable_padding_button"
+        android:drawableStart="@drawable/ic_person_add_white_24dp"
+        android:elevation="@dimen/elegant_elevation"
+        android:paddingBottom="@dimen/padding_vertical_button_bar"
+        android:paddingEnd="@dimen/padding_right_button_bar_my_matches"
+        android:paddingStart="@dimen/padding_left_button_bar_my_matches"
+        android:paddingTop="@dimen/padding_vertical_button_bar"
+        android:text="@string/button_bar_my_matches"
+        android:textAllCaps="false"
+        android:textColor="@color/textButton"
+        android:textSize="@dimen/text_medium_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

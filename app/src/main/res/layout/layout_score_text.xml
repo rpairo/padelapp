@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:gravity="center"
+    android:includeFontPadding="false"
+    android:text="@string/score_result"
+    android:textColor="@color/iconsEnabled"
+    android:textSize="@dimen/text_giant_size"
+    android:textStyle="bold" />

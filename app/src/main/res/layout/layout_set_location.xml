@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_dialog_set_location">
+
+    <ImageView
+        android:id="@+id/backdrop_set_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_dialog_set_location"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backdrop_city" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_dialog_set_location"
+        android:alpha="@dimen/alpha_dialog_set_location"
+        android:background="@color/black_transparent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_search_location"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_autocomplete_set_location"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/margin_horizontal_autocomplete_set_location"
+        android:layout_marginStart="@dimen/margin_horizontal_autocomplete_set_location"
+        android:layout_marginTop="@dimen/margin_top_autocomplete_set_location"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:hint="@string/hint_autocomplete_set_location"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:maxLines="@integer/max_lines_autocomplete_set_location"
+        android:paddingStart="@dimen/padding_start_autocomplete_set_location"
+        android:textColor="@color/iconsDisabled"
+        android:textColorHint="@color/iconsDisabled" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/positive_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/backdrop_set_dialog"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/autocomplete_search_location"
+        android:gravity="bottom"
+        android:maxLines="@integer/max_lines_buttons_set_location"
+        android:text="@string/positive_button_set_location"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_small_xl_size" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/negative_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/backdrop_set_dialog"
+        android:layout_below="@+id/autocomplete_search_location"
+        android:layout_marginEnd="@dimen/margin_end_negative_button_set_location"
+        android:layout_toStartOf="@+id/positive_button"
+        android:gravity="bottom"
+        android:maxLines="@integer/max_lines_buttons_set_location"
+        android:text="@string/negative_button_set_location"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_small_xl_size" />
+
+</RelativeLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Padelapp</string>
+
+    <!-- Toolbar -->
+    <string name="property_name_elevation">elevation</string>
+
+    <!-- Toolbar main -->
+    <string name="first_title_toolbar_main">Padel</string>
+    <string name="last_title_toolbar_main">app</string>
+    <string name="level_toolbar_main">/ level 3</string>
+    <string name="image_search_description">Search</string>
+    <string name="image_notifications_description">Notifications</string>
+
+    <!-- Toolbar back -->
+    <string name="title_toolbar_back_generic">Title activity</string>
+
+    <!-- Bottom navigation -->
+    <string name="title_matches">Matches</string>
+    <string name="title_now">Now</string>
+    <string name="title_my_matches">My Matches</string>
+    <string name="title_ranking">Ranking</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- Date time -->
+    <string name="date_time_weekday">Monday</string>
+    <string name="date_time_day_month">1 January</string>
+    <string name="date_time_hour">10:20</string>
+    <string name="image_clock_description">Clock</string>
+
+    <!-- Separators match -->
+    <string name="image_separators_description">Separators</string>
+
+    <!-- Player match -->
+    <string name="versus_teams">VS</string>
+    <string name="amount_players_match">4 are missing</string>
+    <string name="image_player_description">Player profile picture</string>
+
+    <!-- Price bar -->
+    <string name="image_club_description">Club logo</string>
+    <string name="price_match">6,50€</string>
+    <string name="phrase_person_price_bar">per person</string>
+    <string name="prefix_club_bar">Club Atlético</string>
+    <string name="name_club_bar">Montemar</string>
+    <string name="button_bar">Sign up</string>
+
+    <!-- Date time now -->
+    <string name="left_time_now">left</string>
+    <string name="weekday_now">Today</string>
+    <string name="date_time_match_now">at 18:00</string>
+
+    <!-- Price bar now -->
+    <string name="location_club_bar">(Alicante)</string>
+
+    <!-- Player ranking -->
+    <string name="position_player">1.</string>
+    <string name="name_player">Javier Martinez</string>
+    <string name="location_player">San Juan (Alicante)</string>
+    <string name="points_player">3.830</string>
+    <string name="suffix_points_player">points</string>
+
+    <!-- Tab layout ranking -->
+    <string name="title_tab_all">All</string>
+    <string name="title_tab_boys">Boys</string>
+    <string name="title_tab_girls">Girls</string>
+
+    <!-- Fragment ranking -->
+    <string name="title_fragment_ranking">Ranking</string>
+    <string name="level_player_ranking">level 3</string>
+
+    <!-- Price bar now -->
+    <string name="button_bar_my_matches">Invite</string>
+
+    <!-- My matches results -->
+    <string name="title_my_results">My Results</string>
+
+    <!-- Date time results -->
+    <string name="date_time_results">22 Feb, 18:00 &#8210; 19:30</string>
+
+    <!-- Player results -->
+    <string name="name_player_result">Javier Martinez Gonzalez</string>
+
+    <!-- Price bar results -->
+    <string name="button_bar_results">Add result</string>
+
+    <!-- Title score results -->
+    <string name="first_column_score_result">1</string>
+    <string name="second_column_score_result">2</string>
+    <string name="third_column_score_result">3</string>
+
+    <!-- Score results -->
+    <string name="score_result">0</string>
+    <string name="description_score_result">Edit score</string>
+
+    <!-- Emotional outcome results -->
+    <string name="result_win">You won</string>
+    <string name="result_lose">You lost</string>
+    <string name="result_points">1.234 points</string>
+
+    <!-- Profile -->
+    <string name="name_user_profile">Juan Jiménez</string>
+    <string name="location_user_profile">San Juan (Alicante)</string>
+    <string name="points_user_profile">3.830</string>
+    <string name="label_points_user_profile">points</string>
+    <string name="level_user_profile">0</string>
+    <string name="label_level_user_profile">level</string>
+    <string name="matches_lost_profile">09</string>
+    <string name="label_matches_lost_profile">lost</string>
+    <string name="description_sad_face_profile">Sad face</string>
+    <string name="matches_won_profile">132</string>
+    <string name="label_matches_won_profile">won</string>
+    <string name="description_happy_face_profile">Happy face</string>
+    <string name="matches_played_profile">284 matches played</string>
+    <string name="availability_user_profile">Matches 20 kms away from Alicante, on Mondays, Tuesdays, Wednesdays from 9:00 &#8210; 15:00</string>
+    <string name="description_racket">Racket</string>
+    <string name="title_button_edit_profile">Edit profile</string>
+    <string name="title_button_preferences_for_playing">Preferences for playing</string>
+    <string name="title_button_block_users">Block users</string>
+    <string name="title_button_notifications">Notifications</string>
+    <string name="description_image_profile">Image profile</string>
+    <string name="title_configuration">Configuration</string>
+
+    <!-- Toolbar edit profile -->
+    <string name="image_back_arrow_description">Back arrow</string>
+    <string name="title_toolbar_edit_profile">Edit profile</string>
+
+    <!-- Set location -->
+    <string name="hint_autocomplete_set_location">Search a place</string>
+    <string name="positive_button_set_location">Accept</string>
+    <string name="negative_button_set_location">Cancel</string>
+
+    <!-- Edit profile -->
+    <string name="format_date_birthday">MM-dd-yyyy</string>
+    <string name="locale_format_date_birthday">uk</string>
+    <string name="tag_dialog_fragment_location">SET_LOCATION</string>
+    <string name="hint_name_edit_profile">Name</string>
+    <string name="hint_last_name_edit_profile">Last names</string>
+    <string name="title_photo_profile">Photo</string>
+    <string name="boy_gender_edit_profile">Boy</string>
+    <string name="girl_gender_edit_profile">Girl</string>
+    <string name="hint_mail_edit_profile">Email</string>
+    <string name="hint_password_edit_profile">Password</string>
+    <string name="label_optional_data_edit_profile">Optional data</string>
+    <string name="hint_birthday_edit_profile">Birthday</string>
+    <string name="hint_location_edit_profile">Location</string>
+    <string name="hint_mobile_edit_profile">Mobile</string>
+    <string name="hint_federated_edit_profile">Federated</string>
+
+    <!-- Toolbar preferences for playing -->
+    <string name="title_toolbar_preferences_for_playing">Preferences for playing</string>
+
+    <!-- Preferences for playing -->
+    <string name="title_select_far_match">Select how far you want to show you matches</string>
+    <string name="label_schedule_preferences_playing">Schedule</string>
+    <string name="custom_label_schedule_preferences_playing">Customize the times you can play to offer matches in these time zones</string>
+    <string name="item_tab_monday">MO</string>
+    <string name="item_tab_tuesday">TUE</string>
+    <string name="item_tab_wednesday">WED</string>
+    <string name="item_tab_thursday">THU</string>
+    <string name="item_tab_friday">FRI</string>
+    <string name="item_tab_saturday">SAT</string>
+    <string name="item_tab_sunday">SUN</string>
+
+    <!-- Time schedule preferences playing -->
+    <string name="check_nine">9:00</string>
+    <string name="check_ten">10:00</string>
+    <string name="check_eleven">11:00</string>
+    <string name="check_twelve">12:00</string>
+    <string name="check_thirteen">13:00</string>
+    <string name="check_fourteen">14:00</string>
+    <string name="check_fifteen">15:00</string>
+    <string name="check_sixteen">16:00</string>
+    <string name="check_seventeen">17:00</string>
+    <string name="check_eighteen">18:00</string>
+    <string name="check_nineteen">19:00</string>
+    <string name="check_twenty">20:00</string>
+    <string name="check_twenty_one">21:00</string>
+    <string name="check_twenty_two">22:00</string>
+    <string name="button_repeat_work">Repeat work</string>
+    <string name="button_repeat_all_week">Repeat all week</string>
+
+    <!-- Blocked users -->
+    <string name="block_lower_level_players">Block lower-level players</string>
+    <string name="only_boys_players">Playing only with boys</string>
+    <string name="label_blocked_players">Blocked players</string>
+    <string name="block_button_blocked_players">+ Block</string>
+    <string name="unlock_player_blocked_players">Unlock</string>
+    <string name="toolbar_title_blocked_players">Blocked players</string>
+
+    <!-- Tutorial -->
+    <string name="button_done_tutorial">Start</string>
+    <string name="first_label_tutorial_one">Practice padel</string>
+    <string name="second_label_tutorial_one">Compete with our organized matches, meet people, and enjoy your passion</string>
+    <string name="first_label_tutorial_two">Always connected</string>
+    <string name="second_label_tutorial_two">We notify you in real time of any changes and the possibility of playing new matches</string>
+    <string name="first_label_tutorial_three">Compete and level up</string>
+    <string name="second_label_tutorial_three">We are looking for opponents of your level.\nHave fun and level up!</string>
+
+    <!-- Toolbar edit notifications -->
+    <string name="title_toolbar_edit_notifications">Notifications</string>
+    <string name="label_edit_notifications">Configure which notifications you want to receive in the application to be always informed (notifications will arrive the same as the application, although you will not be notified via push)</string>
+
+    <!-- Edit notifications -->
+    <string name="check_one_edit_notifications">New result of your match</string>
+    <string name="check_two_edit_notifications">Reminder to point result</string>
+    <string name="check_three_edit_notifications">Level rise</string>
+    <string name="check_four_edit_notifications">New matches according to your preferences</string>
+    <string name="check_five_edit_notifications">Invitation to matches</string>
+    <string name="check_six_edit_notifications">New comment from a player in a match in which you participate</string>
+    <string name="check_seven_edit_notifications">Your match has been completed by players</string>
+    <string name="check_eight_edit_notifications">In your match you have added one more player</string>
+    <string name="check_nine_edit_notifications">A player has abandoned in your match</string>
+
+    <!-- Notifications -->
+    <string name="information_notification">Information notification</string>
+
+    <!-- Match details -->
+    <string name="share_description">Share</string>
+    <string name="title_match_details">Match</string>
+
+    <!-- Level up -->
+    <string name="wins_to_level_up">Win 3 games and go up to level 4</string>
+    <string name="points_to_level_up">You are missing 30 points to reach 4.000 points</string>
+
+    <!-- Place match -->
+    <string name="title_place_match">Place</string>
+    <string name="name_club_place_match">Club Atlético Montemar</string>
+    <string name="location_club_place_match">Av. Locutor Vicente Hipólito, s/n,</string>
+    <string name="postal_code_club_place_match">03540 Alicante</string>
+    <string name="schedule_club_place_match">Monday to Friday 06:45h to 23:15</string>
+
+    <!-- Player match details -->
+    <string name="player_level_match">level 4</string>
+
+    <!-- Rewards match details -->
+    <string name="title_rewards_match">Score</string>
+    <string name="reward_won_match">+10</string>
+    <string name="reward_lost_match">-10</string>
+    <string name="goal_win_for_reward_match">for winning</string>
+    <string name="goal_lost_for_reward_match">for losing</string>
+    <string name="see_more_rating_system_reward_match">See more about the rating system</string>
+
+</resources>

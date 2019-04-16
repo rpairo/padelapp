@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base UI colors -->
+    <color name="primary">#fafafa</color>
+    <color name="primaryDark">#e0e0e0</color>
+    <color name="accent">#64b5f6</color>
+    <color name="iconsEnabled">#616161</color>
+    <color name="iconsDisabled">#9e9e9e</color>
+    <color name="darkBackground">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#e57373</color>
+    <color name="black">#000000</color>
+    <color name="green">#81c784</color>
+    <color name="darkCyan">#0097A7</color>
+
+    <!-- Activity main -->
+    <color name="backgroundActivityMain">@color/darkBackground</color>
+
+    <!-- Navigation bar -->
+    <color name="backgroundNavigationBar">@color/accent</color>
+
+    <!-- Toolbar main-->
+    <color name="textLevel">@color/accent</color>
+    <color name="backgroundToolbar">@color/white</color>
+
+    <!-- Bottom navigation -->
+    <color name="iconBottomNavigationEnabled">@color/iconsEnabled</color>
+    <color name="iconBottomNavigationDisabled">@color/iconsDisabled</color>
+    <color name="textBottomNavigationEnabled">@color/accent</color>
+    <color name="textBottomNavigationDisabled">@color/iconsDisabled</color>
+    <color name="hoverBottomNavigation">@color/primaryDark</color>
+    <color name="backgroundBottomNavigation">@color/white</color>
+
+    <!-- Price bar -->
+    <color name="backgroundButtonPriceMatch">@color/accent</color>
+    <color name="textButton">@color/white</color>
+
+    <!-- Date time now -->
+    <color name="textTimeNow">@color/red</color>
+
+    <!-- Price bar now -->
+    <color name="backgroundButtonNowMatch">@color/iconsEnabled</color>
+
+    <!-- Price bar my matches -->
+    <color name="backgroundButtonMyMatches">@color/green</color>
+
+    <!-- Price bar results -->
+    <color name="backgroundButtonResults">@color/iconsEnabled</color>
+
+    <!-- Header profile -->
+    <color name="backgroundHeaderName">@color/accent</color>
+    <color name="userNameHeader">@color/white</color>
+
+    <!-- Matches results profile -->
+    <color name="lostMatches">@color/red</color>
+    <color name="wonMatches">@color/green</color>
+
+    <!-- Configuration profile -->
+    <color name="backgroundButtonConfigurations">@color/white</color>
+
+    <!-- Transparent -->
+    <color name="black_transparent">#cd000000</color>
+
+    <!-- Shadow blocked -->
+    <color name="shadow_blocked">#CABBBBBB</color>
+</resources>

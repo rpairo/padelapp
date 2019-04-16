@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Title place -->
+    <TextView
+        android:id="@+id/title_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_place_match"
+        android:textColor="@color/iconsEnabled"
+        android:textSize="@dimen/text_big_size"
+        android:textStyle="bold" />
+
+    <!-- Logo club -->
+    <ImageView
+        android:id="@+id/image_club_match_details"
+        android:layout_width="@dimen/width_image_club_place_match"
+        android:layout_height="@dimen/height_image_club_place_match"
+        android:layout_below="@+id/title_place"
+        android:layout_marginTop="@dimen/margin_top_image_club_place_match"
+        android:contentDescription="@string/image_club_description"
+        android:src="@drawable/ic_club_empty" />
+
+    <!-- Name club -->
+    <TextView
+        android:id="@+id/name_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_club_match_details"
+        android:layout_marginStart="@dimen/margin_start_name_club_place_match"
+        android:layout_toEndOf="@+id/image_club_match_details"
+        android:text="@string/name_club_place_match"
+        android:textColor="@color/iconsEnabled"
+        android:textSize="@dimen/text_big_size" />
+
+    <!-- Location club -->
+    <TextView
+        android:id="@+id/location_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name_club"
+        android:layout_alignStart="@+id/name_club"
+        android:layout_below="@+id/name_club"
+        android:text="@string/location_club_place_match"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_small_size" />
+
+    <!-- Postal code club -->
+    <TextView
+        android:id="@+id/club_postal_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/location_club"
+        android:layout_alignStart="@+id/location_club"
+        android:layout_below="@+id/location_club"
+        android:text="@string/postal_code_club_place_match"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_small_size" />
+
+    <!-- Schedule club -->
+    <TextView
+        android:id="@+id/schedule_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/location_club"
+        android:layout_alignStart="@+id/location_club"
+        android:layout_below="@+id/club_postal_code"
+        android:text="@string/schedule_club_place_match"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_small_size" />
+
+    <ImageView
+        android:id="@+id/image_racket"
+        android:layout_width="@dimen/width_image_club_place_match"
+        android:layout_height="@dimen/height_image_club_place_match"
+        android:layout_alignStart="@+id/schedule_club"
+        android:layout_below="@+id/schedule_club"
+        android:layout_marginTop="@dimen/margin_top_image_racket_place_match"
+        android:src="@drawable/ic_racket_black"
+        android:tint="@color/iconsEnabled" />
+
+    <!-- Price match -->
+    <TextView
+        android:id="@+id/price_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_racket"
+        android:layout_below="@+id/schedule_club"
+        android:layout_marginStart="@dimen/margin_start_price_match_place_match"
+        android:layout_toEndOf="@+id/image_racket"
+        android:text="@string/price_match"
+        android:textColor="@color/iconsEnabled"
+        android:textSize="@dimen/text_giant_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/price_match"
+        android:layout_below="@+id/price_match"
+        android:text="@string/phrase_person_price_bar"
+        android:textColor="@color/iconsDisabled"
+        android:textSize="@dimen/text_small_size" />
+
+</RelativeLayout>

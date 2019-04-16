@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <!-- Toolbar -->
+    <include
+        android:id="@+id/appbar_main"
+        layout="@layout/toolbar_match_details" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_cardview_match">
+
+                <!-- Date time -->
+                <include
+                    android:id="@+id/date_time_match"
+                    layout="@layout/layout_date_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/date_time_margin_bottom" />
+
+                <include layout="@layout/layout_player_match" />
+
+                <include layout="@layout/layout_player_match" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_versus_match_details">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@+id/players_missing"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/padding_start_versus_match_details"
+                        android:text="@string/versus_teams"
+                        android:textColor="@color/iconsEnabled"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/players_missing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/amount_players_match"
+                        android:textColor="@color/iconsDisabled"
+                        android:textSize="@dimen/text_small_size" />
+
+                </RelativeLayout>
+
+                <include layout="@layout/layout_player_match" />
+
+                <include layout="@layout/layout_player_match" />
+
+                <include
+                    layout="@layout/layout_separator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top_first_separator_match_details" />
+
+                <!-- Location club -->
+                <include
+                    layout="@layout/layout_place_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_start_location_match_details"
+                    android:layout_marginTop="@dimen/margin_top_location_match_details" />
+
+                <include
+                    layout="@layout/layout_separator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top_second_separator_match_details" />
+
+                <!-- Rewards match -->
+                <include
+                    layout="@layout/layout_reward"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top_rewards_match_details" />
+
+            </LinearLayout>
+
+            <!-- Level up -->
+            <include
+                layout="@layout/layout_level_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom_level_up_match_details"
+                android:layout_marginTop="@dimen/margin_top_level_up_match_details" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <!-- Price bar -->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:cardElevation="@dimen/elevation_price_bar_match_details"
+        app:contentPaddingLeft="@dimen/padding_horizontal_price_bar_match_details"
+        app:contentPaddingRight="@dimen/padding_horizontal_price_bar_match_details">
+
+        <include
+            layout="@layout/layout_price_bar_match"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.design.widget.CoordinatorLayout>

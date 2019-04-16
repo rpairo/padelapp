@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text -->
+    <dimen name="text_giant_xl_size">35sp</dimen>
+    <dimen name="text_giant_size">28sp</dimen>
+    <dimen name="text_big_xl_size">22sp</dimen>
+    <dimen name="text_big_size">20sp</dimen>
+    <dimen name="text_medium_size">16sp</dimen>
+    <dimen name="text_small_xl_size">14sp</dimen>
+    <dimen name="text_small_size">12sp</dimen>
+
+    <!-- Elevations -->
+    <dimen name="elegant_elevation">1dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <!-- Toolbar main -->
+    <dimen name="padding_horizontal_toolbar">10dp</dimen>
+    <dimen name="margin_left_level">5dp</dimen>
+
+    <!-- Card view match -->
+    <dimen name="margin_bottom_cardview_match">15dp</dimen>
+    <dimen name="padding_cardview_match">17dp</dimen>
+
+    <!-- Date time match -->
+    <dimen name="padding_horizontal_datetime">15dp</dimen>
+    <dimen name="padding_vertical_datetime">8dp</dimen>
+    <dimen name="margin_left_date">5dp</dimen>
+    <dimen name="image_size_clock">17dp</dimen>
+    <dimen name="margin_right_clock">5dp</dimen>
+
+    <!-- Player match -->
+    <dimen name="image_size_profile_match">50dp</dimen>
+    <dimen name="padding_horizontal_players_match">10dp</dimen>
+    <dimen name="margin_horizontal_profiles_match">5dp</dimen>
+    <dimen name="margin_top_players_match">25dp</dimen>
+
+    <!-- Separators match -->
+    <dimen name="margin_top_separators_match">25dp</dimen>
+
+    <!-- Price bar -->
+    <dimen name="width_image_club_price_bar">25dp</dimen>
+    <dimen name="height_image_club_price_bar">30dp</dimen>
+    <dimen name="margin_left_details_price_bar">7dp</dimen>
+    <dimen name="margin_left_text_price_bar">3dp</dimen>
+    <dimen name="padding_vertical_button_bar">17dp</dimen>
+    <dimen name="padding_right_button_bar">20dp</dimen>
+    <dimen name="padding_left_button_bar">30dp</dimen>
+    <dimen name="margin_top_price_bar">15dp</dimen>
+    <dimen name="padding_bottom_price_bar">17dp</dimen>
+
+    <!-- Player ranking -->
+    <dimen name="margin_elements_ranking">5dp</dimen>
+
+    <!-- Tab layout ranking -->
+    <dimen name="size_tab_indicator">0dp</dimen>
+    <dimen name="height_tablayout_ranking">38dp</dimen>
+
+    <!-- Ranking fragment -->
+    <dimen name="padding_top_fragment_ranking">30dp</dimen>
+    <dimen name="margin_horizontal_elements_ranking">17dp</dimen>
+    <dimen name="margin_vertical_elements_ranking">15dp</dimen>
+
+    <!-- Price bar my matches-->
+    <dimen name="drawable_padding_button">10dp</dimen>
+    <dimen name="padding_right_button_bar_my_matches">30dp</dimen>
+    <dimen name="padding_left_button_bar_my_matches">20dp</dimen>
+
+    <!-- My matches results -->
+    <dimen name="margin_bottom_title_results">30dp</dimen>
+    <dimen name="margin_top_title_results">50dp</dimen>
+    <dimen name="padding_left_title_results">15dp</dimen>
+    <dimen name="image_size_profile_result">35dp</dimen>
+
+    <!-- Player results -->
+    <dimen name="margin_left_name_player">10dp</dimen>
+
+    <!-- Title score results -->
+    <dimen name="size_title_score">30dp</dimen>
+
+    <!-- Score results -->
+    <dimen name="size_score_results">30dp</dimen>
+
+    <!-- Card view results -->
+    <dimen name="margin_bottom_cardview_results">15dp</dimen>
+    <dimen name="padding_cardview_results">17dp</dimen>
+    <dimen name="margin_left_player_result">5dp</dimen>
+    <dimen name="margin_right_player_result">20dp</dimen>
+    <dimen name="margin_top_third_player_result">15dp</dimen>
+    <dimen name="margin_top_normal_player_result">7dp</dimen>
+    <dimen name="margin_top_first_player_result">40dp</dimen>
+    <dimen name="size_image_emotional_outcome">25dp</dimen>
+    <dimen name="margin_left_text_emotional_outcome">5dp</dimen>
+    <dimen name="margin_top_separators_result">30dp</dimen>
+
+    <!-- Header profile -->
+    <dimen name="height_header_profile_name">100dp</dimen>
+    <dimen name="padding_bottom_header_profile_name">5dp</dimen>
+    <dimen name="padding_start_header_profile_name">40dp</dimen>
+    <dimen name="margin_start_float_action_button_image_profile">30dp</dimen>
+    <dimen name="size_float_action_button_image_profile">70dp</dimen>
+
+    <!-- Points & level profile -->
+    <dimen name="padding_start_location_user">40dp</dimen>
+    <dimen name="padding_top_location_user">5dp</dimen>
+    <dimen name="width_points_user">100dp</dimen>
+    <dimen name="margin_end_points_user">20dp</dimen>
+    <dimen name="margin_top_points_user">30dp</dimen>
+    <dimen name="width_shield_profile">40dp</dimen>
+    <dimen name="margin_end_shield_profile">15dp</dimen>
+
+    <!-- Result mathes profile -->
+    <dimen name="margin_horizontal_separator_profile">17dp</dimen>
+    <dimen name="margin_top_first_separator_profile">50dp</dimen>
+    <dimen name="margin_top_second_separator_profile">25dp</dimen>
+    <dimen name="width_match_won_lost">90dp</dimen>
+    <dimen name="width_face_match_won_lost">40dp</dimen>
+    <dimen name="margin_top_match_won_lost">30dp</dimen>
+    <dimen name="margin_end_face_match_won_lost">20dp</dimen>
+    <dimen name="margin_top_matches_played">40dp</dimen>
+    <dimen name="margin_end_lost_matches_profile">10dp</dimen>
+
+    <!-- Availability profile -->
+    <dimen name="margin_end_score_availability_edit">30dp</dimen>
+    <dimen name="margin_start_score_availability_edit">10dp</dimen>
+    <dimen name="width_availability_user">200dp</dimen>
+    <dimen name="margin_vertical_availability_user">30dp</dimen>
+
+    <!-- Configuration profile -->
+    <dimen name="padding_horizontal_label_configuration">20dp</dimen>
+    <dimen name="padding_start_label_configuration">25dp</dimen>
+    <dimen name="padding_end_button_configurations">10dp</dimen>
+    <dimen name="margin_bottom_button_configuration">10dp</dimen>
+    <dimen name="paggind_vertical_button_configuration">12dp</dimen>
+    <dimen name="paggind_start_button_configuration">20dp</dimen>
+
+    <!-- Set location -->
+    <dimen name="height_dialog_set_location">220dp</dimen>
+    <item name="alpha_dialog_set_location" format="float" type="dimen">0.3</item>
+    <dimen name="height_autocomplete_set_location">40dp</dimen>
+    <dimen name="margin_horizontal_autocomplete_set_location">17dp</dimen>
+    <dimen name="margin_top_autocomplete_set_location">30dp</dimen>
+    <dimen name="padding_start_autocomplete_set_location">10dp</dimen>
+    <dimen name="margin_end_negative_button_set_location">5dp</dimen>
+
+    <!-- Set location item -->
+    <dimen name="pading_item_list_location">15dp</dimen>
+    <dimen name="height_item_list_location">50dp</dimen>
+
+    <!-- Edit profile -->
+    <dimen name="padding_horizontal_edit_profile">17dp</dimen>
+    <dimen name="padding_top_edit_profile">20dp</dimen>
+    <dimen name="width_name_edit_profile">210dp</dimen>
+    <dimen name="height_name_edit_profile">60dp</dimen>
+    <dimen name="padding_name_edit_profile">10dp</dimen>
+    <dimen name="margin_top_last_name_edit_profile">10dp</dimen>
+    <dimen name="margin_end_photo_edit_profile">10dp</dimen>
+    <dimen name="drawable_padding_photo_edit_profile">5dp</dimen>
+    <dimen name="height_toogle_genders_edit_profile">50dp</dimen>
+    <dimen name="margin_top_toogle_genders_edit_profile">30dp</dimen>
+    <dimen name="drawable_padding_gender_edit_profile">20dp</dimen>
+    <dimen name="padding_start_gender_edit_profile">30dp</dimen>
+    <dimen name="margin_top_mail_edit_profile">15dp</dimen>
+    <dimen name="height_mail_edit_profile">60dp</dimen>
+    <dimen name="drawable_padding_mail_edit_profile">10dp</dimen>
+    <dimen name="padding_mail_edit_profile">10dp</dimen>
+    <dimen name="margin_top_optional_data">40dp</dimen>
+    <dimen name="margin_top_birthday">15dp</dimen>
+    <dimen name="padding_vertical_birthday">13dp</dimen>
+    <dimen name="padding_horizontal_birthday">10dp</dimen>
+    <dimen name="margin_bottom_federated_edit_profile">20dp</dimen>
+    <dimen name="margin_end_switch_federated_edit_profile">10dp</dimen>
+
+    <!-- Preferences for playing -->
+    <dimen name="margin_top_elements_preferences_playing">25dp</dimen>
+    <dimen name="padding_preferences_playing">17dp</dimen>
+    <dimen name="margin_top_location_preferences_playing">30dp</dimen>
+    <dimen name="margin_top_label_selected_preferences_playing">20dp</dimen>
+    <dimen name="margin_top_seekbar_preferences_playing">60dp</dimen>
+    <dimen name="margin_top_schedule_label_preferences_playing">50dp</dimen>
+    <dimen name="padding_horizontal_preferences_playing">17dp</dimen>
+    <dimen name="margin_top_customize_schedule_label_preferences_playing">10dp</dimen>
+    <dimen name="margin_top_tab_layout_preferences_playing">20dp</dimen>
+    <dimen name="width_checkbox_time_preferences_playing">160dp</dimen>
+    <dimen name="padding_vertical_checkbox_preferences_playing">17dp</dimen>
+    <dimen name="padding_start_checkbox_preferences_playing">10dp</dimen>
+    <dimen name="margin_top_checkbox_preferences_playing">10dp</dimen>
+    <dimen name="margin_left_checkbox_preferences_playing">10dp</dimen>
+    <dimen name="margin_top_repeat_buttons_preferences_playing">25dp</dimen>
+    <dimen name="padding_button_select_preferences_playing">15dp</dimen>
+
+    <!-- Border -->
+    <dimen name="width_border_view">1dp</dimen>
+
+    <!-- Blocked player -->
+    <dimen name="padding_blocked_players">17dp</dimen>
+    <dimen name="margin_top_recycler_blocked_players">20dp</dimen>
+    <dimen name="margin_top_label_blocked_players">40dp</dimen>
+    <dimen name="margin_top_only_boys_blocked_players">10dp</dimen>
+    <dimen name="size_photo_player_blocked_players">50dp</dimen>
+    <dimen name="margin_end_player_blocked_players">10dp</dimen>
+
+    <!-- Cardview player blocked -->
+    <dimen name="margin_bottom_cardview_blocked_players">5dp</dimen>
+    <dimen name="padding_vertical_cardview_blocked_players">15dp</dimen>
+
+    <!-- Shadow blocked user -->
+    <dimen name="shadow_blocked_user">2dp</dimen>
+
+    <!-- Tutorial -->
+    <dimen name="width_logo_app_tutorial">50dp</dimen>
+    <dimen name="height_logo_app_tutorial">60dp</dimen>
+    <dimen name="width_second_label_app_tutorial">320dp</dimen>
+    <dimen name="margin_top_logo_app_tutorial">305dp</dimen>
+    <dimen name="margin_top_second_label_app_tutorial">10dp</dimen>
+    <dimen name="padding_edit_tutorial">17dp</dimen>
+    <dimen name="margin_top_edit_tutorial">20dp</dimen>
+
+    <!-- Notifications -->
+    <dimen name="margin_start_information_notification">20dp</dimen>
+    <dimen name="padding_information_notification">17dp</dimen>
+    <dimen name="margin_top_information_notification">5dp</dimen>
+
+    <!-- Match details -->
+    <dimen name="height_backdrop_match_details">170dp</dimen>
+    <dimen name="date_time_margin_bottom">20dp</dimen>
+    <dimen name="padding_versus_match_details">17dp</dimen>
+    <dimen name="padding_start_versus_match_details">35dp</dimen>
+    <dimen name="margin_top_first_separator_match_details">30dp</dimen>
+    <dimen name="margin_top_location_match_details">30dp</dimen>
+    <dimen name="margin_start_location_match_details">10dp</dimen>
+    <dimen name="margin_top_second_separator_match_details">40dp</dimen>
+    <dimen name="margin_top_rewards_match_details">30dp</dimen>
+    <dimen name="margin_bottom_level_up_match_details">75dp</dimen>
+    <dimen name="margin_top_level_up_match_details">20dp</dimen>
+    <dimen name="padding_horizontal_price_bar_match_details">17dp</dimen>
+    <dimen name="elevation_price_bar_match_details">5dp</dimen>
+
+    <!-- Level up -->
+    <dimen name="padding_vertical_level_up">17dp</dimen>
+    <dimen name="padding_end_level_up">17dp</dimen>
+    <dimen name="padding_start_level_up">25dp</dimen>
+    <dimen name="margin_start_text_level_up">15dp</dimen>
+
+    <!-- Place match -->
+    <dimen name="width_image_club_place_match">45dp</dimen>
+    <dimen name="height_image_club_place_match">50dp</dimen>
+    <dimen name="margin_top_image_club_place_match">20dp</dimen>
+    <dimen name="margin_start_name_club_place_match">15dp</dimen>
+    <dimen name="margin_top_image_racket_place_match">25dp</dimen>
+    <dimen name="margin_start_price_match_place_match">10dp</dimen>
+
+    <!-- Player match details -->
+    <dimen name="padding_vertical_player_match_details">5dp</dimen>
+
+    <!-- Rewards match details -->
+    <dimen name="padding_start_title_rewards_match">10dp</dimen>
+    <dimen name="margin_top_faces_rewards">25dp</dimen>
+    <dimen name="size_face_rewards_match">50dp</dimen>
+    <dimen name="margin_start_reward">10dp</dimen>
+    <dimen name="margin_top_see_more_about">60dp</dimen>
+    <dimen name="drawable_paggin_see_more_about">5dp</dimen>
+
+</resources>

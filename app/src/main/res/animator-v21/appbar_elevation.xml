@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <objectAnimator
+            android:duration="@integer/duration_elevation"
+            android:propertyName="@string/property_name_elevation"
+            android:valueTo="@dimen/toolbar_elevation"
+            android:valueType="floatType" />
+    </item>
+</selector>

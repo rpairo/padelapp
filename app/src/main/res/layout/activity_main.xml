@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivityMain"
+    tools:context="com.nitsnets.padelapp.activities.MainActivity">
+
+    <!-- Toolbar -->
+    <include
+        android:id="@+id/appbar_main"
+        layout="@layout/toolbar_main" />
+
+    <!-- Content -->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigation_main"
+        android:layout_below="@+id/appbar_main" />
+
+    <!-- Bottom Navigation -->
+    <include
+        android:id="@+id/bottom_navigation_main"
+        layout="@layout/bottom_navigation_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

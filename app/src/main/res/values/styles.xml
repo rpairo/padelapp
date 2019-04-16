@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="AppThemeChild" />
+
+    <style name="AppThemeChild" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+    </style>
+
+    <!-- Bottom navigation view theme -->
+    <style name="BottomNavigation">
+        <item name="android:background">@color/backgroundBottomNavigation</item>
+        <item name="itemBackground">@drawable/hover_bottom_navigation</item>
+        <item name="itemIconTint">@color/icon_bottom_navigation</item>
+        <item name="itemTextColor">@color/text_navigation_bottom</item>
+    </style>
+
+    <!-- Tab layout ranking style -->
+    <style name="TabLayoutRanking" parent="Base.Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">@dimen/size_tab_indicator</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabRanking</item>
+        <item name="tabSelectedTextColor">@color/iconsEnabled</item>
+    </style>
+
+    <!-- Tab ranking style -->
+    <style name="TabRanking" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_small_size</item>
+        <item name="android:textColor">@color/iconsDisabled</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- Configuration buttons style -->
+    <style name="ButtonConfiguration" parent="ButtonConfigurationChild" />
+
+    <style name="ButtonConfigurationChild">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/backgroundButtonConfigurations</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_button_configuration</item>
+        <item name="android:paddingBottom">@dimen/paggind_vertical_button_configuration</item>
+        <item name="android:paddingTop">@dimen/paggind_vertical_button_configuration</item>
+        <item name="android:paddingStart">@dimen/paggind_start_button_configuration</item>
+    </style>
+
+    <style name="ActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <!-- Screen splash style -->
+    <style name="SplashTheme" parent="SplashThemeBase" />
+
+    <style name="SplashThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/screen_splash</item>
+    </style>
+
+</resources>
